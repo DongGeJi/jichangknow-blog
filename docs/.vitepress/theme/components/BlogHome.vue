@@ -827,21 +827,32 @@ onMounted(() => {
 .author-avatar-img { width: 100%; height: 100%; object-fit: cover; }
 .author-name { font-size: 1.15rem; font-weight: 800; color: var(--vp-c-text-1); margin: 0; }
 .author-desc { font-size: 0.8rem; color: var(--vp-c-text-2); margin: 0.25rem 0 0.85rem; }
-.author-links { display: flex; justify-content: center; gap: 0.5rem; }
+.author-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.35rem;
+  width: 100%;
+}
 .social-btn {
+  flex: 1 1 0;
+  min-width: 0;
+  white-space: nowrap;
   background: var(--vp-c-bg-alt);
   border: 1px solid var(--vp-c-gutter);
   color: var(--vp-c-text-1) !important;
-  padding: 0.35rem 0.75rem;
+  padding: 0.4rem 0.2rem;
   border-radius: 6px;
-  font-size: 0.78rem;
+  font-size: 0.74rem;
   text-decoration: none !important;
   font-weight: 700;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  gap: 0.3rem;
+  justify-content: center;
+  gap: 0.2rem;
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-sizing: border-box;
 }
 .social-btn:hover {
   background: var(--vp-c-bg);

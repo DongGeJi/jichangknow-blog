@@ -56,9 +56,7 @@ export default defineConfig({
       { text: '⚠️ 跑路黑名单/预警', link: '/warning/' },
       { text: '⚡ AI / 4K解锁专区', link: '/recommend/streaming-ai' },
       { text: '🛠️ 软件下载与教程', link: '/tutorials/' },
-      { text: '🙋‍♂️ 关于懂哥机', link: '/about' },
-      { text: '💬 TG 频道', link: 'https://t.me/+eRqPUPEwXu80ZGU1' },
-      { text: '🐱 GitHub', link: 'https://github.com/DongGeJi' }
+      { text: '🙋‍♂️ 关于懂哥机', link: '/about' }
     ],
     footer: {
       message: '📢 <a href="https://t.me/+eRqPUPEwXu80ZGU1" target="_blank" rel="noopener" style="color:#0284c7;font-weight:700;text-decoration:underline;">TG 官方频道交流群 ↗</a> | 🐱 <a href="https://github.com/DongGeJi" target="_blank" rel="noopener" style="color:#0284c7;font-weight:700;text-decoration:underline;">GitHub 主页 ↗</a> | ✉️ 商务合作/投稿: <a href="mailto:jichangknow@proton.me" style="color:#0284c7;font-weight:700;text-decoration:underline;">jichangknow@proton.me</a>',
