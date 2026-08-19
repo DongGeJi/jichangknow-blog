@@ -1,0 +1,407 @@
+/**
+ * 懂哥机 (DongGeJi / jichangknow.com) - Clean Tech White (纯白极客风 + 深度暗黑模式) 样式系统
+ */
+
+:root {
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-alt: #f8f9fa;
+  --vp-c-bg-elv: #ffffff;
+  --vp-c-text-1: #111827;
+  --vp-c-text-2: #4b5563;
+  --vp-c-text-3: #9ca3af;
+  --vp-c-gutter: #e5e7eb;
+  --vp-c-brand-1: #0f172a;
+}
+
+/* 暗黑模式深度适配 */
+.dark {
+  --vp-c-bg: #0f172a;
+  --vp-c-bg-alt: #1e293b;
+  --vp-c-bg-elv: #1e293b;
+  --vp-c-text-1: #f8fafc;
+  --vp-c-text-2: #94a3b8;
+  --vp-c-text-3: #64748b;
+  --vp-c-gutter: #334155;
+  --vp-c-brand-1: #38bdf8;
+}
+
+/* 避雷警告卡片 */
+.dongge-card {
+  border: 1px solid #e5e7eb;
+  background-color: var(--vp-c-bg);
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.dongge-card-warning {
+  border-left: 4px solid #dc2626;
+  background-color: #fef2f2;
+}
+
+.dark .dongge-card-warning {
+  background-color: #450a0a;
+  border-left: 4px solid #ef4444;
+}
+
+.dongge-badge {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 4px;
+}
+.badge-red { background: #fee2e2; color: #991b1b; }
+.dark .badge-red { background: #7f1d1d; color: #fecaca; }
+
+/* Base Body Styling */
+body {
+  background-color: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hero 右侧插槽与背景 */
+.VPHero .image-bg {
+  display: none !important;
+}
+
+/* 主标题行高与间距 */
+.VPHero .name,
+.VPHero .text {
+  line-height: 1.3 !important;
+  padding-bottom: 0.2em !important;
+}
+
+.VPHero .container {
+  max-width: 1152px !important;
+  margin: 0 auto !important;
+}
+
+/* Custom Alert / Callout Blocks */
+.vp-doc .custom-block {
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 24px 0;
+  border-left-width: 5px;
+}
+
+.vp-doc .custom-block.warning {
+  background-color: #fffbe6;
+  border-color: #d97706;
+  color: #78350f;
+}
+
+.dark .vp-doc .custom-block.warning {
+  background-color: #451a03;
+  border-color: #f59e0b;
+  color: #fef3c7;
+}
+
+.vp-doc .custom-block.danger {
+  background-color: #fef2f2;
+  border-color: #dc2626;
+  color: #7f1d1d;
+}
+
+.dark .vp-doc .custom-block.danger {
+  background-color: #450a0a;
+  border-color: #ef4444;
+  color: #fee2e2;
+}
+
+.vp-doc .custom-block.tip {
+  background-color: #f0f9ff;
+  border-color: #0284c7;
+  color: #0c4a6e;
+}
+
+.dark .vp-doc .custom-block.tip {
+  background-color: #082f49;
+  border-color: #38bdf8;
+  color: #e0f2fe;
+}
+
+.vp-doc .custom-block .custom-block-title {
+  font-weight: 800;
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+/* High Contrast Headings */
+.vp-doc h1 {
+  font-size: 1.95rem !important;
+  font-weight: 900 !important;
+  line-height: 1.45 !important; /* 彻底解决折行上下文字重叠问题 */
+  letter-spacing: -0.015em !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 1.1rem !important;
+  color: var(--vp-c-text-1) !important;
+  word-break: break-word !important;
+  border: none !important;
+}
+
+.vp-doc h2 {
+  font-size: 1.35rem !important;
+  font-weight: 800 !important;
+  line-height: 1.4 !important;
+  margin-top: 2.2rem !important;
+  margin-bottom: 0.9rem !important;
+  padding-bottom: 0.4rem !important;
+  border-bottom: 1px solid var(--vp-c-gutter) !important;
+  color: var(--vp-c-text-1) !important;
+}
+
+.vp-doc h3 {
+  font-size: 1.15rem !important;
+  font-weight: 800 !important;
+  line-height: 1.4 !important;
+  margin-top: 1.6rem !important;
+  margin-bottom: 0.6rem !important;
+  color: var(--vp-c-text-1) !important;
+}
+
+/* 段落与引用行高 */
+.vp-doc p {
+  line-height: 1.75 !important;
+  margin-bottom: 1rem !important;
+  color: var(--vp-c-text-2) !important;
+  font-size: 0.96rem !important;
+}
+
+/* 保证返回导航条与 h1 标题之间有舒适间距 */
+.global-back-nav-container {
+  margin-top: 0.5rem !important;
+  margin-bottom: 1.25rem !important;
+}
+
+/* 响应式：手机端避免字号过大导致单字频繁折行 */
+@media (max-width: 768px) {
+  .vp-doc h1 {
+    font-size: 1.55rem !important;
+    line-height: 1.4 !important;
+  }
+  .vp-doc h2 {
+    font-size: 1.25rem !important;
+  }
+}
+
+/* Strong Text Emphasis */
+.vp-doc strong {
+  color: var(--vp-c-text-1);
+  font-weight: 800;
+}
+
+/* Codeblock Styling */
+.vp-doc div[class*="language-"] {
+  border-radius: 8px;
+  border: 1px solid var(--vp-c-gutter);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ================= 完美自适应表格（无滑块、紧凑排版） ================= */
+.vp-doc .custom-table-container {
+  width: 100% !important;
+  overflow: hidden !important; /* 彻底禁用滑块 */
+  margin: 1rem 0 1.5rem !important;
+  border-radius: 8px !important;
+  border: 1px solid var(--vp-c-gutter) !important;
+}
+
+.vp-doc .custom-table-container table {
+  width: 100% !important;
+  table-layout: fixed !important; /* 固定表格布局，按百分比精准分摊列宽 */
+  border-collapse: collapse !important;
+  margin: 0 !important;
+  font-size: 0.8rem !important;
+}
+
+.vp-doc .custom-table-container th,
+.vp-doc .custom-table-container td {
+  padding: 0.6rem 0.5rem !important;
+  border-bottom: 1px solid var(--vp-c-gutter) !important;
+  text-align: left !important;
+  vertical-align: middle !important;
+  line-height: 1.4 !important;
+}
+
+.vp-doc .custom-table-container th {
+  background: var(--vp-c-bg-alt) !important;
+  color: var(--vp-c-text-1) !important;
+  font-weight: 800 !important;
+}
+
+/* 科学精确分配 5 列宽度比例（总计 100%，绝不溢出产生滑块） */
+.vp-doc .custom-table-container th:nth-child(1),
+.vp-doc .custom-table-container td:nth-child(1) { width: 14%; } /* 排名 */
+
+.vp-doc .custom-table-container th:nth-child(2),
+.vp-doc .custom-table-container td:nth-child(2) { width: 20%; font-weight: 800; color: var(--vp-c-text-1); } /* 机场名称 */
+
+.vp-doc .custom-table-container th:nth-child(3),
+.vp-doc .custom-table-container td:nth-child(3) { width: 16%; color: #0284c7; font-weight: 700; } /* 资费/优惠码 */
+
+.vp-doc .custom-table-container th:nth-child(4),
+.vp-doc .custom-table-container td:nth-child(4) { width: 28%; font-size: 0.76rem; } /* 核心特性 */
+
+.vp-doc .custom-table-container th:nth-child(5),
+.vp-doc .custom-table-container td:nth-child(5) { width: 22%; text-align: center !important; } /* 快捷操作 */
+
+/* 徽章与按钮样式 */
+.rank-badge {
+  font-size: 0.68rem;
+  font-weight: 800;
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+  background: var(--vp-c-bg-alt);
+  color: var(--vp-c-text-2);
+  white-space: nowrap;
+}
+.rank-badge.r-1 { background: #fee2e2; color: #dc2626; }
+.rank-badge.r-2 { background: #ffedd5; color: #ea580c; }
+.rank-badge.r-3 { background: #e0f2fe; color: #0284c7; }
+
+.code-pill,
+.vp-doc td code {
+  background: #fef2f2 !important;
+  color: #dc2626 !important;
+  border: 1px solid #fecaca !important;
+  padding: 0.12rem 0.4rem !important;
+  font-weight: 700 !important;
+  font-size: 0.75rem !important;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.table-btn-group {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 4px !important;
+  white-space: nowrap !important;
+}
+
+.t-btn-aff {
+  background: #0284c7 !important;
+  color: #ffffff !important;
+  font-weight: 800 !important;
+  font-size: 0.72rem !important;
+  padding: 0.2rem 0.45rem !important;
+  border-radius: 4px !important;
+  text-decoration: none !important;
+  line-height: 1.2 !important;
+}
+
+.t-btn-rev {
+  background: var(--vp-c-bg) !important;
+  border: 1px solid var(--vp-c-gutter) !important;
+  color: var(--vp-c-text-1) !important;
+  font-size: 0.72rem !important;
+  font-weight: 700 !important;
+  padding: 0.2rem 0.45rem !important;
+  border-radius: 4px !important;
+  text-decoration: none !important;
+  line-height: 1.2 !important;
+}
+
+/* 防止右侧边栏重叠 */
+.aside-rank-container {
+  position: relative;
+  z-index: 10;
+}
+
+/* ================= 根治全站所有 H1 标题折行重叠 ================= */
+h1,
+.vp-doc h1,
+.about-page-wrap h1,
+.methodology-page-wrap h1,
+.recommend-doc-wrap h1 {
+  font-size: 1.85rem !important;
+  font-weight: 900 !important;
+  line-height: 1.5 !important; /* 强制锁定 1.5 倍行高，彻底留足折行间距 */
+  margin-top: 0.6rem !important;
+  margin-bottom: 1.2rem !important;
+  letter-spacing: -0.01em !important;
+  display: block !important;
+  height: auto !important;
+  min-height: unset !important;
+  color: var(--vp-c-text-1) !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+/* 确保标题下方的元数据栏不会向上漂移 */
+.article-meta-bar {
+  margin-top: 0.8rem !important;
+  clear: both !important;
+}
+
+/* ================= 懂哥机博客专属：自适应终审点评卡片 ================= */
+.blog-summary-card {
+  background: var(--vp-c-bg-alt) !important;
+  border: 1px solid var(--vp-c-gutter) !important;
+  border-left: 5px solid #0284c7 !important;
+  border-radius: 12px !important;
+  padding: 1.5rem 1.75rem !important;
+  margin: 1.5rem 0 2.5rem !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03) !important;
+  color: var(--vp-c-text-1) !important;
+}
+
+.blog-summary-header {
+  font-weight: 900 !important;
+  font-size: 1.15rem !important;
+  color: var(--vp-c-text-1) !important;
+  margin-bottom: 0.75rem !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+}
+
+.blog-summary-desc {
+  font-size: 0.95rem !important;
+  color: var(--vp-c-text-2) !important;
+  line-height: 1.75 !important;
+  margin-bottom: 1rem !important;
+}
+
+.blog-summary-list {
+  margin: 0 !important;
+  padding-left: 1.25rem !important;
+  font-size: 0.9rem !important;
+  color: var(--vp-c-text-2) !important;
+  line-height: 1.9 !important;
+}
+
+.blog-summary-list li strong {
+  color: var(--vp-c-text-1) !important;
+}
+
+/* ================= VitePress 本地搜索按钮与弹窗美化 ================= */
+.VPNavBarSearch {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+
+.VPNavBarSearch .DocSearch-Button,
+.VPNavBarSearch .search-btn {
+  background-color: var(--vp-c-bg-alt) !important;
+  border: 1px solid var(--vp-c-gutter) !important;
+  border-radius: 20px !important;
+  padding: 0.35rem 0.85rem !important;
+  font-size: 0.84rem !important;
+  color: var(--vp-c-text-2) !important;
+  transition: all 0.2s ease-in-out !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02) !important;
+}
+
+.VPNavBarSearch .DocSearch-Button:hover,
+.VPNavBarSearch .search-btn:hover {
+  border-color: #0284c7 !important;
+  color: var(--vp-c-text-1) !important;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.1) !important;
+}
+

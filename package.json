@@ -1,0 +1,29 @@
+{
+  "name": "donggeji-blog",
+  "version": "1.0.0",
+  "description": "懂哥机 (DongGeJi) - 硬核晚高峰测速、拆透行业套路、跑路避坑预警的数据导购与教程博客",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "vitepress build docs",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "懂哥机",
+    "懂哥机博客",
+    "2026机场推荐",
+    "科学上网",
+    "IPLC专线",
+    "机场跑路预警",
+    "Clash Verge Rev",
+    "Shadowrocket"
+  ],
+  "author": "懂哥机 (DongGeJi)",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.6.0",
+    "vue": "^3.5.0"
+  }
+}

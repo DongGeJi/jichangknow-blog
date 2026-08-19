@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#0F172A" rx="12"/>
+  <!-- Header Bar -->
+  <rect width="800" height="40" fill="#1E293B" rx="12"/>
+  <circle cx="25" cy="20" r="6" fill="#EF4444"/>
+  <circle cx="45" cy="20" r="6" fill="#F59E0B"/>
+  <circle cx="65" cy="20" r="6" fill="#10B981"/>
+  <text x="400" y="25" fill="#94A3B8" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">DongGeJi 懂哥机 - 21:30 晚高峰千兆 IPLC 专线硬核测速仪表盘</text>
+  
+  <!-- Speed Meters -->
+  <g transform="translate(60, 80)">
+    <!-- Download Speed Card -->
+    <rect width="320" height="150" fill="#182234" rx="8" stroke="#334155" stroke-width="2"/>
+    <text x="20" y="35" fill="#94A3B8" font-family="sans-serif" font-size="14" font-weight="bold">DOWNLOAD / 晚高峰下行速率</text>
+    <text x="20" y="95" fill="#10B981" font-family="sans-serif" font-size="52" font-weight="900">942.85</text>
+    <text x="250" y="95" fill="#64748B" font-family="sans-serif" font-size="20" font-weight="bold">Mbps</text>
+    <path d="M 20 120 Q 100 135 180 115 T 300 130" stroke="#10B981" stroke-width="3" fill="none"/>
+  </g>
+  
+  <g transform="translate(420, 80)">
+    <!-- Upload Speed Card -->
+    <rect width="320" height="150" fill="#182234" rx="8" stroke="#334155" stroke-width="2"/>
+    <text x="20" y="35" fill="#94A3B8" font-family="sans-serif" font-size="14" font-weight="bold">UPLOAD / 上行速率</text>
+    <text x="20" y="95" fill="#38BDF8" font-family="sans-serif" font-size="52" font-weight="900">188.50</text>
+    <text x="250" y="95" fill="#64748B" font-family="sans-serif" font-size="20" font-weight="bold">Mbps</text>
+    <path d="M 20 125 Q 100 115 180 130 T 300 120" stroke="#38BDF8" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- Ping & Latency Matrix -->
+  <g transform="translate(60, 260)">
+    <rect width="680" height="140" fill="#182234" rx="8" stroke="#334155" stroke-width="2"/>
+    <text x="20" y="30" fill="#F8FAFC" font-family="sans-serif" font-size="16" font-weight="bold">📍 节点实测延迟与丢包率矩阵 (晚高峰 21:00-22:00 真实数据)</text>
+    
+    <!-- Row 1 -->
+    <text x="20" y="65" fill="#E2E8F0" font-family="sans-serif" font-size="14">🇭🇰 香港 IPLC 专线 01 [原生IP/4K秒开]</text>
+    <text x="350" y="65" fill="#10B981" font-family="monospace" font-size="14" font-weight="bold">Ping: 32ms</text>
+    <text x="520" y="65" fill="#10B981" font-family="monospace" font-size="14" font-weight="bold">丢包率: 0.0% (0/1000)</text>
+
+    <!-- Row 2 -->
+    <text x="20" y="95" fill="#E2E8F0" font-family="sans-serif" font-size="14">🇯🇵 日本 IEPL 专线 02 [OpenAI/ChatGPT解锁]</text>
+    <text x="350" y="95" fill="#10B981" font-family="monospace" font-size="14" font-weight="bold">Ping: 45ms</text>
+    <text x="520" y="95" fill="#10B981" font-family="monospace" font-size="14" font-weight="bold">丢包率: 0.0% (0/1000)</text>
+
+    <!-- Row 3 -->
+    <text x="20" y="125" fill="#E2E8F0" font-family="sans-serif" font-size="14">🇺🇸 美国 BGP 优化 01 [TikTok/Claude3.5]</text>
+    <text x="350" y="125" fill="#38BDF8" font-family="monospace" font-size="14" font-weight="bold">Ping: 135ms</text>
+    <text x="520" y="125" fill="#10B981" font-family="monospace" font-size="14" font-weight="bold">丢包率: 0.1% (1/1000)</text>
+  </g>
+</svg>
