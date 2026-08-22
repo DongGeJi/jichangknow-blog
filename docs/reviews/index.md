@@ -196,7 +196,7 @@ outline: [2, 3]
   <div class="card-footer-action">
     <div class="footer-left-tip"><span class="secure-dot"></span> 晚高峰千兆压测 · 独立验证</div>
     <div class="footer-btns-right">
-      <a href="https://vg5d.quanttt.club/#/?code=AVo0WgaO" target="_blank" rel="nofollow sponsored" class="btn-primary-aff">官网直达 ↗</a>
+      <a href="https://hueue09.gcvipaff.com/#/?code=AVo0WgaO" target="_blank" rel="nofollow sponsored" class="btn-primary-aff">官网直达 ↗</a>
       <a href="/reviews/quanqiuyun" class="btn-secondary-review">阅读完整测评 ➔</a>
     </div>
   </div>

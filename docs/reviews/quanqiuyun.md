@@ -23,7 +23,7 @@ outline: [2, 3]
       <span style="font-size: 1.2rem;">🌐</span>
       <div>
         <div style="font-size: 0.75rem; color: var(--vp-c-text-3); font-weight: 700;">官方通道</div>
-        <a href="https://vg5d.quanttt.club/#/?code=AVo0WgaO" target="_blank" rel="nofollow sponsored" style="color: #0284c7; font-weight: 800; font-size: 0.9rem; text-decoration: none;">立即前往全球云官网 ↗</a>
+        <a href="https://hueue09.gcvipaff.com/#/?code=AVo0WgaO" target="_blank" rel="nofollow sponsored" style="color: #0284c7; font-weight: 800; font-size: 0.9rem; text-decoration: none;">立即前往全球云官网 ↗</a>
       </div>
     </div>
     <div style="display: flex; align-items: center; gap: 0.75rem; background: var(--vp-c-bg); border: 1px solid var(--vp-c-gutter); padding: 0.85rem 1rem; border-radius: 8px;">

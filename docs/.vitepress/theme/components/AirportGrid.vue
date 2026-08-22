@@ -97,7 +97,7 @@ const airports = [
     cover: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&auto=format&fit=crop&q=80',
     desc: '多线 BGP 混合专线入口，覆盖全球 30+ 国家地区节点，外贸跨境与出海商务首选。',
     tags: ['全球覆盖', '外贸推荐', 'BGP多线'],
-    affUrl: 'https://vg5d.quanttt.club/#/?code=AVo0WgaO',
+    affUrl: 'https://hueue09.gcvipaff.com/#/?code=AVo0WgaO',
     reviewUrl: '/reviews/quanqiuyun'
   },
   {

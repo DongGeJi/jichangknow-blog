@@ -68,7 +68,7 @@ head:
 ## 🚀 官方直达与快捷入口
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="https://vg5d.quanttt.club/#/?code=AVo0WgaO" target="_blank" rel="nofollow sponsored" style="display: inline-block; background: var(--vp-c-brand-1); color: #ffffff; font-weight: 800; font-size: 1.05rem; padding: 0.8rem 2rem; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 14px rgba(2,132,199,0.3);">
+  <a href="https://hueue09.gcvipaff.com/#/?code=AVo0WgaO" target="_blank" rel="nofollow sponsored" style="display: inline-block; background: var(--vp-c-brand-1); color: #ffffff; font-weight: 800; font-size: 1.05rem; padding: 0.8rem 2rem; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 14px rgba(2,132,199,0.3);">
     ⚡ 立即前往 全球云 官网 ↗
   </a>
   <div style="margin-top: 0.8rem; font-size: 0.88rem; color: var(--vp-c-text-2);">

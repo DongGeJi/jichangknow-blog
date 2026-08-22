@@ -228,7 +228,7 @@ const fullAirports = [
     code: '暂无',
     desc: '多线 BGP 混合专线入口，覆盖全球 30+ 地区节点，支持智能负载均衡，跨境外贸与出海商务首选。',
     tags: ['全球30+地区', '外贸推荐', 'BGP专线', '负载均衡'],
-    affUrl: 'https://vg5d.quanttt.club/#/?code=AVo0WgaO',
+    affUrl: 'https://hueue09.gcvipaff.com/#/?code=AVo0WgaO',
     reviewUrl: '/reviews/quanqiuyun'
   },
   {
