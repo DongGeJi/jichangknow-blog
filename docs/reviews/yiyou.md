@@ -1,6 +1,6 @@
 ---
 title: 翼游专线深度测评：晚高峰 900M 跑满与 4K 秒开稳定性实测
-description: 懂哥机深度测评翼游专线，三网 IPLC 纯专线晚高峰实测速率、延迟与丢包率。
+description: 懂哥机 2026 翼游专线 机场深度测评。三网 IPLC 纯专线晚高峰实测，详尽记录连通速率、延迟与 0 丢包性能指标。
 head:
   - - script
     - type: application/ld+json

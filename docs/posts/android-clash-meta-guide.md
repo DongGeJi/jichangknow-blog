@@ -1,6 +1,6 @@
 ---
 title: 2026 安卓 Android 手机 Clash Meta / NekoBox 官方下载与电池优化指南
-description: 懂哥机2026安卓手机科学上网客户端配置，解决后台进程被杀、电池优化白名单设置与一键导入教程。
+description: 懂哥机 2026 安卓手机科学上网客户端保姆级配置教程，详解 Clash Meta for Android 与 v2rayNG 节点导入、后台进程被杀防护、电池优化白名单设置与全分流规则。
 head:
   - - script
     - type: application/ld+json

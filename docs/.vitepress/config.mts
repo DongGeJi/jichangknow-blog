@@ -16,7 +16,8 @@ export default defineConfig({
     ['meta', { name: 'keywords', content: '懂哥机,懂哥机博客,jichangknow,2026机场推荐,科学上网,IPLC专线机场,机场跑路预警,Clash Verge Rev下载' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: '懂哥机博客' }],
-    ['meta', { property: 'og:url', content: 'https://jichangknow.com' }]
+    ['meta', { property: 'og:url', content: 'https://jichangknow.com' }],
+    ['meta', { name: 'indexnow-key', content: 'c0d3f6a8e5b41297890123456789abcd' }]
   ],
   themeConfig: {
     logo: '/logo.png',

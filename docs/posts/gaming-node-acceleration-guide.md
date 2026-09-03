@@ -1,6 +1,6 @@
 ---
 title: 2026 外服游戏低延迟加速选机指南：Steam / Epic / 英雄联盟外服 / 绝地求生专线实测
-description: 懂哥机2026外服网游加速选机指南，实测日区、韩区、亚服UDP直连线路，拒绝跳Ping与丢包。
+description: 懂哥机 2026 外服网游电竞加速选机指南，实测 Steam、Epic、日区、韩区及亚服 UDP 直连与 IPLC 专线节点，解决高延迟、跳 Ping 与游戏联机丢包难题。
 head:
   - - script
     - type: application/ld+json

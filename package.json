@@ -5,9 +5,9 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "build": "vitepress build docs",
+    "build": "vitepress build docs && node scratch/ping_indexnow.js",
     "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
+    "docs:build": "vitepress build docs && node scratch/ping_indexnow.js",
     "docs:preview": "vitepress preview docs"
   },
   "keywords": [

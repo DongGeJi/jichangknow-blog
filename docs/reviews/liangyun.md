@@ -1,6 +1,6 @@
 ---
 title: 按量云深度测评：不限时流量包与轻度备用梯子实测
-description: 流量永不过期，按 GB 计费，轻度使用者与备用梯子实测。
+description: 懂哥机 2026 亮云 机场深度测评。流量永不过期按 GB 计费包，支持单月灵活使用，适合轻度使用者与主力梯子备用防失联应急。
 head:
   - - script
     - type: application/ld+json

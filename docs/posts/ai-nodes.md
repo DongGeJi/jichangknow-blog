@@ -1,6 +1,6 @@
 ---
 title: 2026 ChatGPT-4o / Claude 3.5 / Netflix 4K 原生 IP 解锁专线榜
-description: 懂哥机每日自动化轮询监测的 OpenAI、Claude 3.5 与流媒体原生防封 IP 节点推荐。
+description: 懂哥机每日自动化压测与监测的 OpenAI ChatGPT-4o、Claude 3.5 Sonnet 与 4K 影视原生防封 IP 节点机场推荐，详解数据中心 IP 风控原理与住宅 IP 解锁方案。
 head:
   - - script
     - type: application/ld+json

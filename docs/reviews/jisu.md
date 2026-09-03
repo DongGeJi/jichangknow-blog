@@ -1,6 +1,6 @@
 ---
 title: 极速中转深度测评：18元档位平价水桶机晚高峰表现实测
-description: 全节点 1.0 倍率不虚标，高性价比中转机场实测。
+description: 懂哥机 2026 极速中转机场深度测评。全节点 1.0 倍率不虚标，高性价比中转专线实测，晚高峰千兆吞吐稳定无卡顿。
 head:
   - - script
     - type: application/ld+json

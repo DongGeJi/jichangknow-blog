@@ -1,6 +1,6 @@
 ---
 title: 【edgenova】2026 深度测评：边缘计算加速节点与 GitHub / OpenAI 特化实测
-description: 边缘计算加速节点，针对 OpenAI API 及 GitHub 代码拉取特化加速，开发者首选。
+description: 懂哥机 2026 edgenova 机场深度测评。基于 1000M FTTR 宽带晚高峰 20:00-23:00 实测其边缘计算加速节点、OpenAI API 零风控解锁与 GitHub 代码拉取加速性能，提供资费参数对账与专属优惠码。
 category: 📑 单篇实测
 outline: [2, 3]
 ---

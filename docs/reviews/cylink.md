@@ -1,6 +1,6 @@
 ---
 title: 【次元链接】2026 深度测评：二次元与泛娱乐特化番剧全绿解锁实测
-description: 二次元与泛娱乐特化，Bilibili 港澳台、DMM 及动画番剧全绿解锁。
+description: 懂哥机 2026 肆云 (cylink) 机场深度测评白皮书。二次元与泛娱乐特化，Bilibili 港澳台、DMM 及动画番剧全绿解锁，晚高峰 1000M 带宽压测无卡顿。
 category: 📑 单篇实测
 outline: [2, 3]
 ---

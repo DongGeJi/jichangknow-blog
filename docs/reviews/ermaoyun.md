@@ -1,6 +1,6 @@
 ---
 title: 【二猫云】2026 深度测评：iOS 与 Android 客户端极简配置实测
-description: 针对移动端深度优化，支持一键导入小火箭与 Clash，配置极度精简。
+description: 懂哥机 2026 二猫云 机场深度测评。针对移动端 iOS/Android 深度优化，支持一键导入小火箭与 Clash，配置极度精简，配合 1.0x 倍率透明计费，打造稳定冲浪体验。
 category: 📑 单篇实测
 outline: [2, 3]
 ---

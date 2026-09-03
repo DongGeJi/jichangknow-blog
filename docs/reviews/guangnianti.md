@@ -1,6 +1,6 @@
 ---
 title: 【光年梯】2026 深度测评：Netflix 4K 与 Disney+ 深度解锁实测
-description: 专为流媒体打造，全节点原生 IP 轮询，全天候 YouTube 4K 拖拽零缓冲。
+description: 懂哥机 2026 光年梯 机场深度测评白皮书。专为流媒体打造，全节点原生 IP 动态轮询，全天候 YouTube 4K/8K 拖拽零缓冲，解锁 Netflix 与 Disney+ 极速播报。
 category: 📑 单篇实测
 outline: [2, 3]
 ---
