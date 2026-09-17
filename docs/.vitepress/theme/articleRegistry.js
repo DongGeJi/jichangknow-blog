@@ -33,6 +33,7 @@ export const MASTER_ARTICLE_REGISTRY = {
   'review-cylink': { id: 'review-cylink', views: 1120, likes: 95, link: '/reviews/cylink' },
   'review-teaartcloud': { id: 'review-teaartcloud', views: 1090, likes: 92, link: '/reviews/teaartcloud' },
   'review-sanfancloud': { id: 'review-sanfancloud', views: 1060, likes: 89, link: '/reviews/sanfancloud' },
+  'review-peiqian': { id: 'review-peiqian', views: 1890, likes: 210, link: '/reviews/peiqian' },
 
   // 4. 深度技术教程
   'soft-router': { id: 'soft-router', views: 1540, likes: 125, link: '/tutorials/soft-router' },

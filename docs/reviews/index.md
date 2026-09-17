@@ -131,7 +131,31 @@ outline: [2, 3]
   </div>
 </div>
 
-## 6. 浪网 (AI 开发特化)
+## 6. 赔钱机场 (月付 1.99 元 / 不限时)
+
+<div class="luxury-card">
+  <div class="card-top-info">
+    <div class="badge-group">
+      <span class="type-badge">极致性价比 / 按量包</span>
+      <span class="coupon-badge">🎁 专属优惠: 端午</span>
+    </div>
+    <div class="date-views-meta">
+      <span class="meta-date">📅 2026-09-17</span>
+      <span class="meta-views">👁️ 1890</span>
+    </div>
+  </div>
+  <h3 class="card-main-title"><a href="/reviews/peiqian">【赔钱机场】2026 深度测评：月付 1.99 元极致性价比与不限时按量付费包实测</a></h3>
+  <p class="card-desc-text">月付仅需 ¥1.99，1000G 不限时流量包 ¥14.90！三网高质量中转，0.1x 超低下载节点，不限制设备连接数。</p>
+  <div class="card-footer-action">
+    <div class="footer-left-tip"><span class="secure-dot"></span> 晚高峰千兆压测 · 独立验证</div>
+    <div class="footer-btns-right">
+      <a href="https://github.com/DongGeJi" target="_blank" rel="nofollow sponsored" class="btn-primary-aff">官网直达 ↗</a>
+      <a href="/reviews/peiqian" class="btn-secondary-review">阅读完整测评 ➔</a>
+    </div>
+  </div>
+</div>
+
+## 7. 浪网 (AI 开发特化)
 
 <div class="luxury-card">
   <div class="card-top-info">

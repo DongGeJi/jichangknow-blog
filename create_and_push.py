@@ -24,7 +24,8 @@ AIRPORTS = [
     ("yifanyun", "一翻云", "BGP 大带宽", "¥20/月 (150G)", "暂无"),
     ("ermaoyun", "二猫云", "iOS/Android 优化", "¥20/月 (130G)", "暂无"),
     ("sogoyun", "sogo云", "企业级中转隧道", "¥25/月 (150G)", "暂无"),
-    ("edgenova", "edgenova", "边缘计算节点", "¥20/月 (100G)", "暂无")
+    ("edgenova", "edgenova", "边缘计算节点", "¥20/月 (100G)", "暂无"),
+    ("peiqian", "赔钱机场", "三网高质量中转", "¥1.99/月 (可乐包)", "端午")
 ]
 
 def create_github_repo(repo_name):
