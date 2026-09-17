@@ -302,6 +302,15 @@ const fullAirports = [
     tags: ['边缘加速', 'GitHub拉取', 'OpenAI API', '低延迟'],
     affUrl: 'https://work.edgenovaaff.cc',
     reviewUrl: '/reviews/edgenova'
+  },
+  {
+    name: '赔钱机场',
+    price: '¥1.99/月 (可乐包) | ¥14.9/1000G不限时',
+    code: '端午',
+    desc: '月付最低仅 1.99 元，1000G 不限时包低至 14.9 元！三网高质量中转，包含 0.1x 超低倍率下载节点，完全不限客户端在线设备数量。',
+    tags: ['极致性价比', '1.99元月付', '1000G不限时', '0.1x下载节点'],
+    affUrl: 'https://github.com/DongGeJi',
+    reviewUrl: '/reviews/peiqian'
   }
 ]
 </script>

@@ -85,8 +85,9 @@ head:
 
 | 排名 | 机场名称 | 最低资费 / 优惠码 | 核心优势与解锁 | 快捷通道 |
 | :---: | :--- | :--- | :--- | :---: |
-| <span class="rank-badge">TOP 15</span> | **宇宙云** | ¥14.9/月 (100G)<br><span class="code-pill">YUZHOU553</span> | 首月折后仅 14.9 元，BGP 多线中转，学生党平价首选 | <div class="table-btn-group"><a href="https://wzjc.yuzoucloud.cc" target="_blank" rel="nofollow sponsored" class="t-btn-aff">官网 ↗</a><a href="/reviews/yuzhouyun" class="t-btn-rev">评测</a></div> |
-| <span class="rank-badge">TOP 16</span> | **二猫云** | ¥20/月 (130G)<br>暂无 | 针对 iOS/Android 优化，一键导入小火箭与 Clash，极简配置 | <div class="table-btn-group"><a href="https://wzjc.2maoyunaff.cc" target="_blank" rel="nofollow sponsored" class="t-btn-aff">官网 ↗</a><a href="/reviews/ermaoyun" class="t-btn-rev">评测</a></div> |
+| <span class="rank-badge">TOP 15</span> | **赔钱机场** | ¥1.99/月 (120G)<br><span class="code-pill">端午</span> | 月付 1.99 元极致超低门槛，1000G 不限时包 ¥14.90，0.1x 下载节点，不限设备数 | <div class="table-btn-group"><a href="https://github.com/DongGeJi" target="_blank" rel="nofollow sponsored" class="t-btn-aff">官网 ↗</a><a href="/reviews/peiqian" class="t-btn-rev">评测</a></div> |
+| <span class="rank-badge">TOP 16</span> | **宇宙云** | ¥14.9/月 (100G)<br><span class="code-pill">YUZHOU553</span> | 首月折后仅 14.9 元，BGP 多线中转，学生党平价首选 | <div class="table-btn-group"><a href="https://wzjc.yuzoucloud.cc" target="_blank" rel="nofollow sponsored" class="t-btn-aff">官网 ↗</a><a href="/reviews/yuzhouyun" class="t-btn-rev">评测</a></div> |
+| <span class="rank-badge">TOP 17</span> | **二猫云** | ¥20/月 (130G)<br>暂无 | 针对 iOS/Android 优化，一键导入小火箭与 Clash，极简配置 | <div class="table-btn-group"><a href="https://wzjc.2maoyunaff.cc" target="_blank" rel="nofollow sponsored" class="t-btn-aff">官网 ↗</a><a href="/reviews/ermaoyun" class="t-btn-rev">评测</a></div> |
 
 </div>
 
