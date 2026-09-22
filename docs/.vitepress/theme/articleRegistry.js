@@ -35,6 +35,7 @@ export const MASTER_ARTICLE_REGISTRY = {
   'review-sanfancloud': { id: 'review-sanfancloud', views: 1060, likes: 89, link: '/reviews/sanfancloud' },
   'review-peiqian': { id: 'review-peiqian', views: 1890, likes: 210, link: '/reviews/peiqian' },
   'review-jiuyun': { id: 'review-jiuyun', views: 2150, likes: 230, link: '/reviews/jiuyun' },
+  'review-baoyun': { id: 'review-baoyun', views: 1980, likes: 215, link: '/reviews/baoyun' },
 
   // 4. 深度技术教程
   'soft-router': { id: 'soft-router', views: 1540, likes: 125, link: '/tutorials/soft-router' },

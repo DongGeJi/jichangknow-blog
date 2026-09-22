@@ -179,7 +179,31 @@ outline: [2, 3]
   </div>
 </div>
 
-## 7. 浪网 (AI 开发特化)
+## 7. 宝云机场 (超低门槛 ¥4/月 / 不限时包)
+
+<div class="luxury-card">
+  <div class="card-top-info">
+    <div class="badge-group">
+      <span class="type-badge">白菜价 / 不限时包</span>
+      <span class="coupon-badge">🎁 专属优惠: 暂无</span>
+    </div>
+    <div class="date-views-meta">
+      <span class="meta-date">📅 2026-09-22</span>
+      <span class="meta-views">👁️ 1980</span>
+    </div>
+  </div>
+  <h3 class="card-main-title"><a href="/reviews/baoyun">【宝云机场】2026 深度测评：月付 4 元 200G 超低门槛与 59 元 1000G 不限时流量白皮书</a></h3>
+  <p class="card-desc-text">月付起步仅需 ¥4 (200G)，更有 ¥29/100G 到 ¥59/1000G 多梯度不限时流量包！平价保号备用与日常翻墙首选。</p>
+  <div class="card-footer-action">
+    <div class="footer-left-tip"><span class="secure-dot"></span> 晚高峰千兆压测 · 独立验证</div>
+    <div class="footer-btns-right">
+      <a href="https://888by.baoyundl.com/#/register?code=BDGk7BuG" target="_blank" rel="nofollow sponsored" class="btn-primary-aff">官网直达 ↗</a>
+      <a href="/reviews/baoyun" class="btn-secondary-review">阅读完整测评 ➔</a>
+    </div>
+  </div>
+</div>
+
+## 8. 浪网 (AI 开发特化)
 
 <div class="luxury-card">
   <div class="card-top-info">

@@ -214,6 +214,15 @@ const fullAirports = [
     reviewUrl: '/reviews/lingdongyun'
   },
   {
+    name: '宝云机场',
+    price: '¥4/月 (200G) | ¥29/100G不限时',
+    code: '暂无',
+    desc: '极致平民性价比与高弹性套餐！月付低至 4 元 200G，更有 59 元 1000G 不限时包，保号备用与日常翻墙绝佳首选。',
+    tags: ['极致白菜价', '¥4月付', '不限时流量包', '备用保号'],
+    affUrl: 'https://888by.baoyundl.com/#/register?code=BDGk7BuG',
+    reviewUrl: '/reviews/baoyun'
+  },
+  {
     name: '浪网',
     price: '¥25/月 (150G)',
     code: 'lw88',
