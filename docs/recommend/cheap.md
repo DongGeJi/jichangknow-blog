@@ -75,6 +75,13 @@ graph TD
   <tbody>
     <tr style="border-bottom: 1px solid var(--vp-c-divider);">
       <td style="padding: 12px 6px; font-weight: bold; color: #e11d48; white-space: nowrap;">TOP 1</td>
+      <td style="padding: 12px 8px; font-weight: bold; white-space: nowrap;">九云机场</td>
+      <td style="padding: 12px 8px; color: var(--vp-c-brand-1);">¥6.0 / 月 (150G)<br>¥99 / 300G 不限时<br><span style="font-size: 12px; color: var(--vp-c-text-2);">(直享平价原价)</span></td>
+      <td style="padding: 12px 18px; text-align: left; font-size: 13.5px; line-height: 1.65;">极致高性价比！月付仅需 6 元即有 150G 流量，海外中转 + VLESS 协议，解锁 ChatGPT / Gemini 与流媒体，晚高峰 4K 播放流畅。</td>
+      <td style="padding: 12px 8px; white-space: nowrap;"><a href="https://9y1.jiuyundy.com/9yun/5c4eab9d6616ad0d9bb64343adedac2c" target="_blank" rel="nofollow sponsored" style="color: var(--vp-c-brand-1); text-decoration: none; font-weight: bold; white-space: nowrap;">官网 ↗</a></td>
+    </tr>
+    <tr style="border-bottom: 1px solid var(--vp-c-divider);">
+      <td style="padding: 12px 6px; font-weight: bold; color: #d97706; white-space: nowrap;">TOP 2</td>
       <td style="padding: 12px 8px; font-weight: bold; white-space: nowrap;">宇宙云</td>
       <td style="padding: 12px 8px; color: var(--vp-c-brand-1);">¥14.9 / 月 (100G)<br><span style="font-size: 12px; color: var(--vp-c-brand-1); font-weight: bold; background: rgba(2,132,199,0.1); padding: 2px 6px; border-radius: 4px;">优惠码: YUZHOU553</span></td>
       <td style="padding: 12px 18px; text-align: left; font-size: 13.5px; line-height: 1.65;">平价入门首选！首月折后仅 14.9 元，多线 BGP 负载均衡，完美契合学生党查资料与轻度追剧需求。</td>
