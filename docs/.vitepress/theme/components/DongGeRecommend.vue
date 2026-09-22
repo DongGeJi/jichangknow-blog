@@ -187,15 +187,6 @@ const fullAirports = [
     reviewUrl: '/reviews/yinxingren'
   },
   {
-    name: '九云机场',
-    price: '¥6/月 (150G)',
-    code: '暂无',
-    desc: '极致性价比与高实用性！海外中转 + VLESS 协议，覆盖港/日/台/新/美，支持常规流媒体解锁与 ChatGPT/Gemini，晚高峰 4K 播放流畅。',
-    tags: ['高性价比', '¥6月付', 'VLESS协议', 'ChatGPT/Gemini解锁'],
-    affUrl: 'https://9y1.jiuyundy.com/9yun/5c4eab9d6616ad0d9bb64343adedac2c',
-    reviewUrl: '/reviews/jiuyun'
-  },
-  {
     name: 'FlyV',
     price: '¥25/月 (150G)',
     code: 'fly20',
@@ -203,6 +194,15 @@ const fullAirports = [
     tags: ['1.0x 计费', '不限设备', '150G 大流量', '无限速'],
     affUrl: 'https://tizi2.flyvaff.com/#/?code=JrLBx09H',
     reviewUrl: '/reviews/flyv'
+  },
+  {
+    name: '九云机场',
+    price: '¥6/月 (150G)',
+    code: '暂无',
+    desc: '极致性价比与高实用性！海外中转 + VLESS 协议，覆盖港/日/台/新/美，支持常规流媒体解锁与 ChatGPT/Gemini，晚高峰 4K 播放流畅。',
+    tags: ['高性价比', '¥6月付', 'VLESS协议', 'ChatGPT/Gemini解锁'],
+    affUrl: 'https://9y1.jiuyundy.com/9yun/5c4eab9d6616ad0d9bb64343adedac2c',
+    reviewUrl: '/reviews/jiuyun'
   },
   {
     name: '灵动云',
