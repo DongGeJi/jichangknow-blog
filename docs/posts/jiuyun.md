@@ -49,7 +49,7 @@ head:
       <td style="padding: 10px; color: var(--vp-c-brand-1); font-weight: bold;">¥6.0 / 月 (150G)</td>
       <td style="padding: 10px;">海外中转 (VLESS 协议)</td>
       <td style="padding: 10px;">直享平价原价</td>
-      <td style="padding: 10px;"><a href="https://9y1.jiuyundy.com/9yun/5c4eab9d6616ad0d9bb64343adedac2c" target="_blank" rel="nofollow sponsored" style="color: var(--vp-c-brand-1); font-weight: bold;">官网链接 ↗</a></td>
+      <td style="padding: 10px;"><a href="https://dongge.jiuyyq.com/#/register?code=zxEy7hTJ" target="_blank" rel="nofollow sponsored" style="color: var(--vp-c-brand-1); font-weight: bold;">官网链接 ↗</a></td>
     </tr>
   </tbody>
 </table>

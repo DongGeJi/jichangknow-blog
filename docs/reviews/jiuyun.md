@@ -14,7 +14,7 @@ aside: true
   <strong>懂哥机导读：</strong>九云机场（9Cloud）主打极致性价比与高实用性，底层采用现代化的海外中转线路与 VLESS 传输协议。节点精准覆盖香港、日本、台湾、新加坡、美国等核心常用地区。招财版套餐最低仅需 ¥6/月（包含 150G 流量），不仅能流畅解锁常规流媒体，还全面支持 ChatGPT、Gemini 等 AI 平台，晚高峰时段挂测 YouTube 4K 视频毫无压力。以下为懂哥机带来的最新独立实测报告。
 </div>
 
-<AirportCtaButton name="九云机场" url="https://9y1.jiuyundy.com/9yun/5c4eab9d6616ad0d9bb64343adedac2c" code="暂无" mode="top" />
+<AirportCtaButton name="九云机场" url="https://dongge.jiuyyq.com/#/register?code=zxEy7hTJ" code="暂无" mode="top" />
 
 ---
 
@@ -26,7 +26,7 @@ aside: true
       <span style="font-size: 1.2rem;">🌐</span>
       <div>
         <div style="font-size: 0.75rem; color: var(--vp-c-text-3); font-weight: 700;">官方通道</div>
-        <a href="https://9y1.jiuyundy.com/9yun/5c4eab9d6616ad0d9bb64343adedac2c" target="_blank" rel="nofollow sponsored" style="color: #0284c7; font-weight: 800; font-size: 0.9rem; text-decoration: none;">立即前往九云机场官网 ↗</a>
+        <a href="https://dongge.jiuyyq.com/#/register?code=zxEy7hTJ" target="_blank" rel="nofollow sponsored" style="color: #0284c7; font-weight: 800; font-size: 0.9rem; text-decoration: none;">立即前往九云机场官网 ↗</a>
       </div>
     </div>
     <div style="display: flex; align-items: center; gap: 0.75rem; background: var(--vp-c-bg); border: 1px solid var(--vp-c-gutter); padding: 0.85rem 1rem; border-radius: 8px;">
@@ -113,4 +113,4 @@ aside: true
 * **个人轻度上网者**：首选 **招财版 (¥6/月, 150G)**，极低成本满足日常查资料与浏览需求。
 * **高频观影/主力选购**：推荐 **聚财版 (¥9/月, 300G)**，高性价比主力首选，300G 流量看 4K 视频毫无顾虑！
 
-<AirportCtaButton name="九云机场" url="https://9y1.jiuyundy.com/9yun/5c4eab9d6616ad0d9bb64343adedac2c" code="暂无" mode="bottom" />
+<AirportCtaButton name="九云机场" url="https://dongge.jiuyyq.com/#/register?code=zxEy7hTJ" code="暂无" mode="bottom" />

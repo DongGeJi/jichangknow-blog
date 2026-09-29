@@ -125,7 +125,7 @@ outline: [2, 3]
   <div class="card-footer-action">
     <div class="footer-left-tip"><span class="secure-dot"></span> 晚高峰千兆压测 · 独立验证</div>
     <div class="footer-btns-right">
-      <a href="https://9y1.jiuyundy.com/9yun/5c4eab9d6616ad0d9bb64343adedac2c" target="_blank" rel="nofollow sponsored" class="btn-primary-aff">官网直达 ↗</a>
+      <a href="https://dongge.jiuyyq.com/#/register?code=zxEy7hTJ" target="_blank" rel="nofollow sponsored" class="btn-primary-aff">官网直达 ↗</a>
       <a href="/reviews/jiuyun" class="btn-secondary-review">阅读完整测评 ➔</a>
     </div>
   </div>

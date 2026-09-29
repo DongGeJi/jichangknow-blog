@@ -201,7 +201,7 @@ const fullAirports = [
     code: '暂无',
     desc: '极致性价比与高实用性！海外中转 + VLESS 协议，覆盖港/日/台/新/美，支持常规流媒体解锁与 ChatGPT/Gemini，晚高峰 4K 播放流畅。',
     tags: ['高性价比', '¥6月付', 'VLESS协议', 'ChatGPT/Gemini解锁'],
-    affUrl: 'https://9y1.jiuyundy.com/9yun/5c4eab9d6616ad0d9bb64343adedac2c',
+    affUrl: 'https://dongge.jiuyyq.com/#/register?code=zxEy7hTJ',
     reviewUrl: '/reviews/jiuyun'
   },
   {
