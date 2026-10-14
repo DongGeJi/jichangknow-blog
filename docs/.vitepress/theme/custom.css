@@ -398,3 +398,162 @@ h1,
   box-shadow: 0 4px 12px rgba(2, 132, 199, 0.1) !important;
 }
 
+/* ================= 移动端 (320px/375px/390px/430px) 全局排版与防溢出防护 ================= */
+
+/* 1. 根容器防水平晃动与溢出截断 (使用 clip 绝不破坏 position: sticky) */
+html, body {
+  overflow-x: clip;
+  max-width: 100vw;
+}
+
+.VPContent {
+  max-width: 100vw !important;
+  overflow-x: clip !important;
+}
+
+/* 2. 移动端正文内边距微调，留足阅读边界 */
+@media (max-width: 768px) {
+  .vp-doc {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  }
+}
+
+/* 3. 单篇测评页参数面板自适应，彻底杜绝 280px+ 网格撑破小屏视口 */
+.luxury-params-panel {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+.luxury-params-panel > div {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)) !important;
+}
+@media (max-width: 640px) {
+  .luxury-params-panel {
+    padding: 1rem 0.75rem !important;
+    margin: 1.2rem 0 !important;
+  }
+  .luxury-params-panel > div {
+    grid-template-columns: 1fr !important;
+    gap: 0.65rem !important;
+  }
+  .luxury-params-panel > div > div {
+    padding: 0.75rem 0.75rem !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    min-width: 0 !important;
+  }
+  .luxury-params-panel a,
+  .luxury-params-panel span {
+    word-break: break-word !important;
+    overflow-wrap: anywhere !important;
+  }
+}
+
+/* 4. 教程索引卡片自适应 */
+.tutorial-feature-grid {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+@media (max-width: 640px) {
+  .tutorial-feature-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0.75rem !important;
+  }
+  .tutorial-feature-grid > div {
+    padding: 1.1rem 0.85rem !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+}
+
+/* 5. 宽表格在自身容器内横向滑动，页面整体不溢出 */
+.vp-doc .custom-table-container {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box !important;
+}
+.vp-doc > table {
+  display: block !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box !important;
+}
+@media (max-width: 768px) {
+  .vp-doc .custom-table-container table {
+    min-width: 580px;
+  }
+}
+
+/* 6. 代码块、Mermaid 流程图与媒体元素自适应 */
+.vp-doc img,
+.vp-doc video,
+.vp-doc iframe {
+  max-width: 100% !important;
+  height: auto !important;
+  box-sizing: border-box !important;
+}
+.vp-doc .mermaid {
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch;
+}
+.vp-doc div[class*="language-"] {
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  box-sizing: border-box !important;
+}
+.vp-doc pre {
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* 7. 长文本与单词强制换行保护 */
+.vp-doc p,
+.vp-doc li,
+.vp-doc td,
+.vp-doc th,
+.vp-doc blockquote,
+.vp-doc .custom-block {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+/* 8. 极窄屏幕 (< 480px) 标题与卡片精巧排版 */
+@media (max-width: 480px) {
+  .vp-doc h1 {
+    font-size: 1.45rem !important;
+    line-height: 1.38 !important;
+    margin-top: 0.35rem !important;
+    margin-bottom: 0.85rem !important;
+  }
+  .vp-doc h2 {
+    font-size: 1.18rem !important;
+    line-height: 1.35 !important;
+    margin-top: 1.6rem !important;
+    margin-bottom: 0.7rem !important;
+  }
+  .vp-doc h3 {
+    font-size: 1.02rem !important;
+    line-height: 1.35 !important;
+    margin-top: 1.2rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+  .vp-doc p {
+    font-size: 0.92rem !important;
+    line-height: 1.7 !important;
+    margin-bottom: 0.85rem !important;
+  }
+  .blog-summary-card {
+    padding: 1.1rem 0.9rem !important;
+    margin: 1.2rem 0 1.8rem !important;
+  }
+  .dongge-card {
+    padding: 1rem 0.85rem !important;
+  }
+}
+

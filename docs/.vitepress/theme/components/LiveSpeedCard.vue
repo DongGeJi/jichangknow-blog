@@ -265,7 +265,54 @@ const maxSpeed = computed(() => {
 }
 
 @media (max-width: 768px) {
+  .live-speed-dashboard {
+    padding: 1.1rem 0.9rem;
+  }
   .node-metric-row { grid-template-columns: 1.5fr 1fr; }
   .node-middle-bar { display: none; }
+}
+
+@media (max-width: 480px) {
+  .live-speed-dashboard {
+    padding: 0.95rem 0.75rem;
+  }
+  .dashboard-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+  .dashboard-title {
+    font-size: 0.95rem;
+  }
+  .env-info-bar {
+    flex-direction: column;
+    gap: 0.35rem;
+    padding: 0.45rem 0.65rem;
+  }
+  .node-metric-row {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.4rem;
+    padding: 0.65rem 0.75rem;
+  }
+  .node-left {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .node-right-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-top: 1px dashed var(--vp-c-gutter);
+    padding-top: 0.35rem;
+    font-size: 0.78rem;
+  }
+  .dashboard-summary-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
 }
 </style>

@@ -675,6 +675,7 @@ const fullAirports = [
   padding: 1.35rem;
   display: flex;
   flex-direction: column;
+  min-width: 0;
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 .airport-clean-card:hover {
@@ -808,10 +809,56 @@ const fullAirports = [
 .faq-body { margin-top: 0.65rem; font-size: 0.9rem; color: var(--vp-c-text-2); line-height: 1.65; }
 
 @media (max-width: 768px) {
-  .airport-cards-clean-grid { grid-template-columns: 1fr; }
+  .airport-cards-clean-grid { grid-template-columns: minmax(0, 1fr); }
+  .title-price-row { flex-wrap: wrap; gap: 0.4rem; }
+  .card-code-strip { flex-wrap: wrap; max-width: 100%; }
   .promo-banner-box { flex-direction: column; align-items: flex-start; }
   .banner-btn { margin-left: 0; margin-top: 0.75rem; width: 100%; text-align: center; }
   .card-action-btns { grid-template-columns: 1fr; }
   .luxury-rank-table { min-width: 600px; }
+}
+
+@media (max-width: 480px) {
+  .recommend-doc-wrap {
+    padding: 0 0 2rem;
+  }
+  .main-title {
+    font-size: 1.55rem;
+    line-height: 1.35;
+    margin-bottom: 0.85rem;
+  }
+  .top-status-pills {
+    gap: 0.35rem;
+    margin-bottom: 0.85rem;
+  }
+  .live-pill, .spec-pill {
+    font-size: 0.72rem;
+    padding: 0.15rem 0.45rem;
+  }
+  .promo-banner-box {
+    padding: 0.85rem 1rem;
+    margin-bottom: 1.2rem;
+  }
+  .warning-alert-card {
+    padding: 0.85rem 1rem;
+    margin: 1.2rem 0 1.8rem;
+  }
+  .section-title {
+    font-size: 1.25rem;
+    margin: 2rem 0 0.4rem;
+  }
+  .airport-clean-card {
+    padding: 1rem 0.85rem;
+  }
+  .card-airport-name {
+    font-size: 1.1rem;
+  }
+  .card-desc-txt {
+    font-size: 0.82rem;
+  }
+  .btn-cyan-action, .btn-dark-action {
+    padding: 0.45rem 0;
+    font-size: 0.8rem;
+  }
 }
 </style>

@@ -152,4 +152,25 @@ watch(() => page.value?.relativePath, () => {
   border-color: #7f1d1d;
   color: #fca5a5;
 }
+
+@media (max-width: 480px) {
+  .article-meta-bar {
+    gap: 0.4rem;
+    padding-bottom: 0.65rem;
+    margin-bottom: 1.2rem;
+  }
+  .meta-left-tags {
+    gap: 0.35rem;
+  }
+  .meta-item {
+    width: 100%;
+    font-size: 0.74rem;
+    margin-top: 0.15rem;
+  }
+  .stats-right {
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 0.2rem;
+  }
+}
 </style>

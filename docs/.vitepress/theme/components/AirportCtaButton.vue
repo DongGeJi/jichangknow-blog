@@ -232,4 +232,29 @@ defineProps({
     -webkit-tap-highlight-color: transparent;
   }
 }
+
+@media (max-width: 480px) {
+  .cta-banner-box {
+    padding: 1rem 0.85rem;
+    gap: 0.85rem;
+  }
+  .cta-title {
+    font-size: 1rem;
+    word-break: break-word;
+  }
+  .cta-desc-row {
+    font-size: 0.82rem;
+  }
+  .coupon-pill-box {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+  .cta-btn-gradient {
+    white-space: normal;
+    font-size: 0.88rem;
+    padding: 0.65rem 0.75rem;
+    line-height: 1.35;
+    min-height: 42px;
+  }
+}
 </style>

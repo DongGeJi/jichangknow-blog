@@ -686,7 +686,35 @@ outline: [2, 3]
 @media (max-width: 640px) {
   .card-top-info { flex-direction: column; align-items: flex-start; }
   .card-footer-action { flex-direction: column; align-items: flex-start; gap: 0.8rem; }
-  .footer-btns-right { width: 100%; display: grid; grid-template-columns: 1fr 1fr; }
+  .footer-btns-right { width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
   .btn-primary-aff, .btn-secondary-review { text-align: center; }
+}
+
+@media (max-width: 480px) {
+  .luxury-card {
+    padding: 1rem 0.85rem;
+    margin-bottom: 1.5rem;
+  }
+  .card-main-title {
+    font-size: 1.05rem;
+    line-height: 1.4;
+  }
+  .card-desc-text {
+    font-size: 0.84rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  .footer-btns-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.45rem;
+  }
+  .btn-primary-aff, .btn-secondary-review {
+    width: 100%;
+    padding: 0.55rem 0.75rem;
+    font-size: 0.82rem;
+    box-sizing: border-box;
+  }
 }
 </style>

@@ -50,7 +50,7 @@ aside: true
 
 ## 💡 深度教程长文精选 (进阶必读)
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; margin-top: 1.5rem;">
+<div class="tutorial-feature-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 1rem; margin-top: 1.5rem;">
   
   <!-- 1. Clash 分流 -->
   <div style="background: var(--vp-c-bg-alt); border: 1px solid var(--vp-c-gutter); padding: 1.5rem; border-radius: 10px;">

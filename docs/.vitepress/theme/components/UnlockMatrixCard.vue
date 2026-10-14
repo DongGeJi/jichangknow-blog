@@ -130,6 +130,58 @@ defineProps({
 }
 
 @media (max-width: 640px) {
-  .matrix-grid { grid-template-columns: 1fr; }
+  .unlock-matrix-dashboard {
+    padding: 1.1rem 0.9rem;
+  }
+  .matrix-grid {
+    grid-template-columns: 1fr;
+    gap: 0.65rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .unlock-matrix-dashboard {
+    padding: 0.95rem 0.75rem;
+  }
+  .dashboard-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+  .matrix-item-card {
+    padding: 0.75rem 0.75rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .item-icon {
+    font-size: 1.25rem;
+  }
+  .item-info {
+    flex: 1 1 140px;
+    min-width: 120px;
+  }
+  .item-name {
+    font-size: 0.84rem;
+  }
+  .item-desc {
+    font-size: 0.72rem;
+    white-space: normal;
+  }
+  .item-status-badge {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.2rem;
+  }
+  .badge-yes, .badge-no, .badge-claimed {
+    font-size: 0.7rem;
+    padding: 0.15rem 0.45rem;
+  }
+  .matrix-footer-note {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
 }
 </style>
