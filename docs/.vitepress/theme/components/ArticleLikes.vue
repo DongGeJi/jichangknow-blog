@@ -1,7 +1,7 @@
 <template>
   <!-- 顶部状态栏模式 -->
   <span v-if="mode === 'top'" class="top-like-pill" :class="{ 'liked': hasLiked }">
-    ❤️ {{ currentLikes }}
+    ❤️ {{ currentLikes > 0 ? currentLikes : '点赞支持' }}
   </span>
 
   <!-- 底部交互按钮模式 -->
@@ -13,9 +13,9 @@
       @click="triggerLike"
     >
       <span>{{ hasLiked ? '💖' : '❤️' }}</span>
-      <span>{{ hasLiked ? `已点赞支持 (${currentLikes})` : `点赞支持懂哥 (${currentLikes})` }}</span>
+      <span>{{ hasLiked ? (currentLikes > 0 ? `已点赞支持 (${currentLikes})` : '已点赞支持') : (currentLikes > 0 ? `点赞支持本文 (${currentLikes})` : '点赞支持本文') }}</span>
     </button>
-    <p class="like-tip">感谢你的认可！坚持独立数测不易，欢迎点赞支持！</p>
+    <p class="like-tip">感谢你的认可！坚持中立独立评测不易，欢迎点赞支持！</p>
   </div>
 </template>
 
@@ -24,11 +24,11 @@ import { useArticleStats } from '../useStats'
 
 const props = defineProps({
   id: { type: String, required: true },
-  initial: { type: Number, default: 35 },
+  initial: { type: Number, default: 0 },
   mode: { type: String, default: 'bottom' }
 })
 
-const { currentLikes, hasLiked, triggerLike } = useArticleStats(props.id, 240, props.initial)
+const { currentLikes, hasLiked, triggerLike } = useArticleStats(props.id, 0, 0)
 </script>
 
 <style scoped>

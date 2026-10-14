@@ -1,22 +1,35 @@
 import { defineConfig } from 'vitepress'
 
+const siteUrl = 'https://jichangknow.com'
+
 export default defineConfig({
   title: "懂哥机博客",
   description: "懂哥机（DongGeJi / jichangknow.com）专注2026科学上网与梯子机场测评。拒绝虚标伪专线，提供真实晚高峰测速、IPLC专线推荐、跑路预警黑名单及Clash/小火箭保姆级教程。",
   lang: 'zh-CN',
+  cleanUrls: true,
+  lastUpdated: true,
   sitemap: {
-    hostname: 'https://jichangknow.com'
+    hostname: siteUrl
   },
-  ignoreDeadLinks: true,
+  ignoreDeadLinks: false,
+  transformPageData(pageData) {
+    const path = pageData.relativePath
+      .replace(/(^|\/)index\.md$/, '$1')
+      .replace(/\.md$/, '')
+    const url = new URL(path, `${siteUrl}/`).href
+    pageData.frontmatter.head ??= []
+    pageData.frontmatter.head.push(
+      ['link', { rel: 'canonical', href: url }],
+      ['meta', { property: 'og:url', content: url }]
+    )
+  },
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
-    ['link', { rel: 'canonical', href: 'https://jichangknow.com' }],
     ['meta', { name: 'author', content: '懂哥机' }],
     ['meta', { property: 'og:image', content: 'https://jichangknow.com/logo.png' }],
     ['meta', { name: 'keywords', content: '懂哥机,懂哥机博客,jichangknow,2026机场推荐,科学上网,IPLC专线机场,机场跑路预警,Clash Verge Rev下载' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: '懂哥机博客' }],
-    ['meta', { property: 'og:url', content: 'https://jichangknow.com' }],
     ['meta', { name: 'indexnow-key', content: 'c0d3f6a8e5b41297890123456789abcd' }]
   ],
   themeConfig: {

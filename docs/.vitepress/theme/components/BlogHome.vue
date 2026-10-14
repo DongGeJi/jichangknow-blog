@@ -19,8 +19,8 @@
             <span class="meta-item">📖 {{ getReadingInfo(post) }}</span>
             <span v-for="t in post.tags" :key="t" class="tag-pill">{{ t }}</span>
             <span class="date">📅 {{ post.date }}</span>
-            <div class="stats-right">
-              <span class="stat-badge like">❤️ {{ getLikes(post.id, post.defaultLikes) }}</span>
+            <div class="stats-right" v-if="getLikes(post.id) > 0">
+              <span class="stat-badge like">❤️ {{ getLikes(post.id) }}</span>
             </div>
           </div>
 
@@ -77,17 +77,17 @@
           </a>
         </div>
 
-        <!-- 3. 热门文章榜单（点赞联动） -->
+        <!-- 3. 核心文章导航 -->
         <div class="sidebar-card ranking-card">
           <div class="rank-header">
-            <span class="active-tab">🔥 热门测评榜</span>
-            <span class="sub-tab">点赞排行</span>
+            <span class="active-tab">📌 推荐导读精选</span>
+            <span class="sub-tab">核心指南</span>
           </div>
           <ol class="rank-list">
             <li v-for="(item, idx) in rankList" :key="item.id">
               <span class="num" :class="`num-${idx + 1}`">{{ idx + 1 }}</span>
               <a :href="item.link">{{ item.title }}</a>
-              <span class="view-count">❤️ {{ getLikes(item.id, item.defaultLikes) }}</span>
+              <span class="view-count" style="color: var(--vp-c-text-2); font-size: 0.75rem;">{{ item.badge || '精选' }}</span>
             </li>
           </ol>
         </div>

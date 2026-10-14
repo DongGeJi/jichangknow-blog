@@ -1,19 +1,19 @@
 <template>
   <div v-if="showRank" class="aside-rank-container">
-    <!-- 1. 顶部 Header 区：全站统一展示单行高亮「🔥 热门点赞排行榜」 -->
+    <!-- 1. 顶部 Header 区：全站统一展示「📌 核心指南与推荐导读」 -->
     <div class="aside-rank-header">
-      <h3 class="rank-header-title">🔥 热门点赞排行榜</h3>
+      <h3 class="rank-header-title">📌 核心指南与推荐导读</h3>
     </div>
 
-    <!-- 2. 1~15 榜单列表：按点赞数 💗 统一倒序排列 -->
+    <!-- 2. 1~15 榜单列表：按重要度结构化导读 -->
     <ol class="aside-rank-list">
-      <li v-for="(item, index) in displayList" :key="item.id" class="rank-list-item">
+      <li v-for="(item, index) in rawList" :key="item.id" class="rank-list-item">
         <span class="rank-index" :class="getBadgeClass(index)">{{ index + 1 }}</span>
         <a :href="item.link" class="rank-item-title" :title="cleanTitle(item.title)">
           {{ cleanTitle(item.title) }}
         </a>
         <span class="rank-stat-val">
-          <span class="stat-like-tag">💗 {{ formatNum(getLikes(item.id)) }}</span>
+          <span class="stat-tag-badge">{{ item.tag }}</span>
         </span>
       </li>
     </ol>
@@ -21,7 +21,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { computed } from 'vue'
 import { useData } from 'vitepress'
 
 const { page, frontmatter } = useData()
@@ -32,28 +32,23 @@ const showRank = computed(() => {
   return true
 })
 
-// 默认开启热门测评榜主视图
-const currentTab = ref('hot')
-const likesMap = ref({})
-const viewsMap = ref({})
-
-// 博客真实收录的 15 篇核心长文与测评大榜
+// 博客真实收录的 15 篇核心长文与测评大榜（清晰标签化导读）
 const rawList = [
-  { id: 'software-wiki', title: '2026 全平台客户端下载与深度部署教程百科', link: '/tutorials/', defaultViews: 2580, defaultLikes: 581 },
-  { id: 'about', title: '【置顶】我是懂哥机：测评自白与准则', link: '/about', defaultViews: 2450, defaultLikes: 320 },
-  { id: 'recommend-2026', title: '2026 稳定科学上网机场推荐综合大榜', link: '/recommend/', defaultViews: 2380, defaultLikes: 295 },
-  { id: 'review-muguang', title: '【暮光加速】2026 深度测评 (主推)', link: '/reviews/muguang', defaultViews: 2350, defaultLikes: 268 },
-  { id: 'ai-4k-unlock', title: '2026 ChatGPT / Claude 住宅IP解锁技术指南', link: '/recommend/streaming-ai', defaultViews: 2280, defaultLikes: 245 },
-  { id: 'warning', title: '2026 避坑指南：全网最全翻墙机场跑路汇总、失联黑名单与维权防骗全复盘', link: '/warning/', defaultViews: 2150, defaultLikes: 210 },
-  { id: 'review-tiziyun', title: '【梯子云】IEPL 企业专线与小白客户端', link: '/reviews/tiziyun', defaultViews: 1980, defaultLikes: 180 },
-  { id: 'cheap', title: '2026 便宜机场与不限时按量付费推荐', link: '/recommend/cheap', defaultViews: 1850, defaultLikes: 165 },
-  { id: 'review-yinxingren', title: '【隐形人】新加坡 VLESS 纯专线实测', link: '/reviews/yinxingren', defaultViews: 1750, defaultLikes: 150 },
-  { id: 'review-flyv', title: '【FlyV】全节点 1.0x 不限设备专线', link: '/reviews/flyv', defaultViews: 1620, defaultLikes: 142 },
-  { id: 'soft-router', title: '软路由全屋翻墙部署方案', link: '/tutorials/soft-router', defaultViews: 295, defaultLikes: 49 },
-  { id: 'clash-rules-guide', title: '如何编写高性能的 Clash 分流规则', link: '/tutorials/clash-rules-guide', defaultViews: 290, defaultLikes: 48 },
-  { id: 'sub-converter', title: '机场节点订阅转换实操详解', link: '/tutorials/sub-converter', defaultViews: 280, defaultLikes: 45 },
-  { id: 'ip-clean-guide', title: '原生 IP 防封与环境净化指南', link: '/tutorials/ip-clean-guide', defaultViews: 275, defaultLikes: 43 },
-  { id: 'network-tuning', title: '晚高峰低延迟优化秘籍', link: '/tutorials/network-tuning', defaultViews: 265, defaultLikes: 41 }
+  { id: 'recommend-2026', title: '2026 稳定科学上网机场推荐综合大榜', link: '/recommend/', tag: '大榜' },
+  { id: 'software-wiki', title: '2026 全平台客户端下载与深度部署教程百科', link: '/tutorials/', tag: '百科' },
+  { id: 'warning', title: '2026 避坑指南：全网最全翻墙机场跑路汇总与黑名单', link: '/warning/', tag: '避坑' },
+  { id: 'about', title: '我是懂哥机：测评自白与独立准则', link: '/about', tag: '置顶' },
+  { id: 'review-muguang', title: '【暮光加速】IEPL 专线晚高峰实测', link: '/reviews/muguang', tag: '测评' },
+  { id: 'ai-4k-unlock', title: '2026 ChatGPT / Claude 住宅IP解锁技术指南', link: '/recommend/streaming-ai', tag: '特化' },
+  { id: 'review-tiziyun', title: '【梯子云】企业专线与小白客户端', link: '/reviews/tiziyun', tag: '测评' },
+  { id: 'cheap', title: '2026 便宜机场与不限时按量付费推荐', link: '/recommend/cheap', tag: '平价' },
+  { id: 'review-yinxingren', title: '【隐形人】新加坡 VLESS 纯专线实测', link: '/reviews/yinxingren', tag: '测评' },
+  { id: 'review-flyv', title: '【FlyV】全节点 1.0x 不限设备专线', link: '/reviews/flyv', tag: '测评' },
+  { id: 'clash-verge', title: 'Clash Verge Rev 官方下载与配置教程', link: '/tutorials/clash-verge', tag: '教程' },
+  { id: 'soft-router', title: '软路由全屋翻墙部署方案', link: '/tutorials/soft-router', tag: '进阶' },
+  { id: 'clash-rules-guide', title: '如何编写高性能的 Clash 分流规则', link: '/tutorials/clash-rules-guide', tag: '分流' },
+  { id: 'sub-converter', title: '机场节点订阅转换实操详解', link: '/tutorials/sub-converter', tag: '工具' },
+  { id: 'network-tuning', title: '晚高峰低延迟优化秘籍', link: '/tutorials/network-tuning', tag: '调优' }
 ]
 
 const cleanTitle = (str) => {
@@ -67,57 +62,6 @@ const getBadgeClass = (index) => {
   if (index === 2) return 'top-3'
   return 'top-other'
 }
-
-import { getMasterStats } from '../articleRegistry'
-
-const loadStats = () => {
-  if (typeof window === 'undefined' || typeof localStorage === 'undefined') return
-  const lMap = {}
-  const vMap = {}
-  rawList.forEach(p => {
-    const lVal = localStorage.getItem(`dongge_likes_${p.id}`)
-    if (lVal) lMap[p.id] = parseInt(lVal, 10)
-    
-    const vVal = localStorage.getItem(`dongge_views_${p.id}`)
-    if (vVal) {
-      const parsed = parseInt(vVal, 10)
-      if (parsed !== 240 && parsed !== 241 && parsed !== 510) {
-        vMap[p.id] = parsed
-      }
-    }
-  })
-  likesMap.value = lMap
-  viewsMap.value = vMap
-}
-
-const getLikes = (id, defaultVal) => {
-  if (likesMap.value[id] !== undefined) return likesMap.value[id]
-  return getMasterStats(id).likes
-}
-
-const getViews = (id, defaultVal) => {
-  if (viewsMap.value[id] !== undefined) return viewsMap.value[id]
-  return getMasterStats(id).views
-}
-
-const formatNum = (num) => {
-  if (num >= 10000) return (num / 10000).toFixed(1) + 'w'
-  return num.toLocaleString()
-}
-
-// 全局动态点赞排行榜：按 Likes 降序排列
-const displayList = computed(() => {
-  const list = [...rawList]
-  return list.sort((a, b) => getLikes(b.id) - getLikes(a.id))
-})
-
-onMounted(() => {
-  loadStats()
-  if (typeof window !== 'undefined') {
-    window.addEventListener('storage', loadStats)
-    window.addEventListener('dongge_stats_updated', loadStats)
-  }
-})
 </script>
 
 <style scoped>
@@ -250,21 +194,18 @@ onMounted(() => {
   text-decoration: underline;
 }
 
-/* 数字与统计清晰展示 (💗 581 / 👁️ 2,580) */
 .rank-stat-val {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 700;
   flex-shrink: 0;
-  font-family: var(--vp-font-family-mono, monospace);
 }
 
-.stat-like-tag {
-  color: #e11d48;
-  font-weight: 700;
-}
-
-.stat-view-tag {
-  color: var(--vp-c-text-1);
-  font-weight: 700;
+.stat-tag-badge {
+  background: var(--vp-c-bg-alt);
+  color: var(--vp-c-text-2);
+  border: 1px solid var(--vp-c-gutter);
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  font-size: 0.72rem;
 }
 </style>

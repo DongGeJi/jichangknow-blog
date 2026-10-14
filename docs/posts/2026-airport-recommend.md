@@ -16,7 +16,7 @@ head:
 
 # 2026稳定科学上网机场推荐：拒绝虚标伪专线，晚高峰不卡顿梯子与跑路预警汇总
 
-<ArticleHeader :likes="128" :views="5860" badge="TOP 推荐" category="✈️ 深度测评" date="2026-08-15" id="recommend-2026" tags="科学上网, 机场天梯榜, IEPL专线, 晚高峰测速, 防坑指南"/>
+<ArticleHeader :likes="0" :views="0" badge="TOP 推荐" category="✈️ 深度测评" date="2026-08-15" id="recommend-2026" tags="科学上网, 机场天梯榜, IEPL专线, 晚高峰测速, 防坑指南"/>
 
 <!-- 懂哥机专属黑金 Banner -->
 <div style="background: #0f172a; border-radius: 12px; padding: 2rem 1.2rem; text-align: center; margin-bottom: 1.8rem; border: 1px solid #334155; box-shadow: 0 4px 16px rgba(0,0,0,0.06);">
@@ -25,11 +25,14 @@ head:
   <div style="color: #94a3b8; font-size: 0.88rem; margin-top: 0.5rem;">拒绝虚标伪专线 · 晚高峰秒开 4K/8K · 实时失联避坑预警</div>
 </div>
 
+> [!TIP]
+> **实时选机速查导航**：如果你需要直接对比各机场最新资费套餐、优惠码与快捷入口，请直接查阅本站核心天梯榜大盘：[👉 2026 热门翻墙机场天梯推荐榜单速查](/recommend/)。本文则专注于深度的选机逻辑剖析、线路物理拓扑辨析、防跑路避坑与真实挂测标准。
+
 这是一篇以**“真实数据、避坑排雷、高性价比”**为核心的 2026 年度科学上网深度选机全景指南。
 
-本文完全基于懂哥机家用 **1000M FTTR 光纤宽带，在每日 20:00 - 23:00 骨干网最拥堵的晚高峰时段**进行多轮压力挂测。我们深入剖析市面上真实运营的 18+ 家主流机场，从线路物理拓扑、节点真实倍率、流媒体/ChatGPT 原生解锁能力到抗封锁协议，为你进行全面天梯分级排名，拒绝任何收钱吹捧与虚假测速！
+本文完全基于懂哥机家用 **1000M FTTR 光纤宽带，在每日 20:00 - 23:00 骨干网最拥堵的晚高峰时段**进行多轮压力挂测。我们深入剖析市面上真实运营的主流机场，从线路物理拓扑、节点真实倍率、流媒体/ChatGPT 原生解锁能力到抗封锁协议，为你进行全面天梯分级排名，拒绝任何收钱吹捧与虚假测速！
 
-如果你是第一次使用科学上网工具，建议配合阅读[《2026 全平台客户端下载与订阅导入教程》](/posts/clash-verge-rev-guide)，避免因本地配置错误导致节点超时。
+如果你是第一次使用科学上网工具，建议配合阅读[《Clash Verge Rev 官方下载与配置教程》](/tutorials/clash-verge)，避免因本地配置错误导致节点超时。
 
 ---
 
@@ -104,4 +107,4 @@ head:
   </div>
 </details>
 
-<ArticleLikes :initial="128" id="recommend-2026" mode="bottom"/>
+<ArticleLikes :initial="0" id="recommend-2026" mode="bottom"/>

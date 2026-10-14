@@ -3,10 +3,10 @@ import urllib.request
 import json
 import base64
 
-# 配置你的 GitHub 用户名和刚才生成的 Token
+# GitHub 用户名；令牌由运行环境提供，勿写入仓库
 GITHUB_USER = "DongGeJi"
-# 请把你刚刚在网页上生成的 github_pat_... 完整复制填在下面引号里
-GITHUB_TOKEN = "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"
+# 运行前设置 GITHUB_TOKEN 环境变量
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
 AIRPORTS = [
     ("muguang", "暮光加速", "IEPL 纯专线", "¥20/月 (120G)", "mm88"),
@@ -28,6 +28,9 @@ AIRPORTS = [
     ("peiqian", "赔钱机场", "三网高质量中转", "¥1.99/月 (可乐包)", "端午"),
     ("jiuyun", "九云机场", "海外中转 VLESS", "¥6/月 (150G)", "暂无")
 ]
+
+if not GITHUB_TOKEN:
+    raise RuntimeError('Set GITHUB_TOKEN in the environment before running this script')
 
 def create_github_repo(repo_name):
     url = "https://api.github.com/user/repos"

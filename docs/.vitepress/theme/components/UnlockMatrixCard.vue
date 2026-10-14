@@ -3,10 +3,10 @@
     <div class="dashboard-header">
       <div class="title-with-pulse">
         <span class="lock-icon">🛡️</span>
-        <span class="dashboard-title">{{ airportName }} 流媒体与 AI 权限解锁矩阵</span>
+        <span class="dashboard-title">{{ airportName }} 流媒体与 AI 支持特性参考</span>
       </div>
       <div class="test-tool-tag">
-        测试工具: <code>RegionRestrictionCheck</code>
+        检测工具基准: <code>RegionRestrictionCheck</code>
       </div>
     </div>
 
@@ -18,15 +18,20 @@
           <div class="item-desc">{{ item.desc }}</div>
         </div>
         <div class="item-status-badge">
-          <span v-if="item.status" class="badge-yes">✅ 原生解锁</span>
-          <span v-else class="badge-no">❌ 受限</span>
+          <span v-if="item.status === 'verified'" class="badge-yes">✅ 实测已验</span>
+          <span v-else-if="item.status === true || item.status === 'claimed'" class="badge-claimed">🔶 标称支持 (待复测)</span>
+          <span v-else class="badge-no">❌ 暂未标称/受限</span>
         </div>
       </div>
     </div>
 
     <div class="matrix-footer-note">
-      <span>📍 测试节点: <strong>香港 IEPL 01 / 日本专线</strong></span>
-      <span class="footer-sign">[ donggeji.verify ]</span>
+      <span>📍 采样节点: <strong>核心专线 / 热门落地机房</strong></span>
+      <span class="footer-sign">[ jichangknow.com · 真实度校准 ]</span>
+    </div>
+
+    <div class="unlock-disclaimer">
+      ⚠️ <strong>流媒体与 AI 风控说明：</strong>Netflix、Disney+、ChatGPT 与 Claude 等平台的机房 IP 风控封锁策略具有高频动态性。上表基于机场官方标称线路特性与历史抽查整理。站长正在收集中立脚本抓包检测报告，请以实际使用节点为准。
     </div>
   </div>
 </template>
@@ -37,12 +42,12 @@ defineProps({
   unlockItems: {
     type: Array,
     default: () => [
-      { name: 'ChatGPT-4o / Plus', desc: '支持 API 调用与网页端流畅对话', icon: '🤖', status: true },
-      { name: 'Claude 3.5 Sonnet', desc: '开发者高频免风控直连', icon: '🧠', status: true },
-      { name: 'Cursor AI IDE', desc: '智能编程辅助无阻碍', icon: '💻', status: true },
-      { name: 'Netflix 4K 超高清', desc: '解锁非自制剧与独占版权影视', icon: '🍿', status: true },
-      { name: 'Disney+ 流媒体', desc: '杜比视界与 4K 音效全绿', icon: '✨', status: true },
-      { name: 'YouTube 4K 播放', desc: '零缓冲秒开，统计数据正常', icon: '▶️', status: true }
+      { name: 'ChatGPT-4o / Plus', desc: '官方标称支持 API 与网页端交互', icon: '🤖', status: 'claimed' },
+      { name: 'Claude 3.5 Sonnet', desc: '官方标称支持，受 Anthropic 风控影响', icon: '🧠', status: 'claimed' },
+      { name: 'Cursor AI IDE', desc: '官方标称支持智能代码补全请求', icon: '💻', status: 'claimed' },
+      { name: 'Netflix 4K 超高清', desc: '官方标称支持主流自制与非自制影视', icon: '🍿', status: 'claimed' },
+      { name: 'Disney+ 流媒体', desc: '官方标称支持杜比视界与 4K 音效', icon: '✨', status: 'claimed' },
+      { name: 'YouTube 4K 播放', desc: '常规视频播放秒开，统计信息正常', icon: '▶️', status: 'claimed' }
     ]
   }
 })
@@ -98,6 +103,8 @@ defineProps({
 .dark .badge-yes { background: rgba(16, 185, 129, 0.2); color: #34d399; }
 .badge-no { background: #fee2e2; color: #991b1b; font-size: 0.72rem; font-weight: 800; padding: 0.2rem 0.5rem; border-radius: 6px; }
 .dark .badge-no { background: rgba(239, 68, 68, 0.2); color: #f87171; }
+.badge-claimed { background: #fef3c7; color: #92400e; font-size: 0.72rem; font-weight: 800; padding: 0.2rem 0.5rem; border-radius: 6px; }
+.dark .badge-claimed { background: rgba(245, 158, 11, 0.2); color: #fbbf24; }
 
 .matrix-footer-note {
   display: flex;
@@ -109,6 +116,18 @@ defineProps({
   border-top: 1px dashed var(--vp-c-gutter);
 }
 .footer-sign { font-size: 0.75rem; color: var(--vp-c-text-3); font-family: monospace; }
+
+.unlock-disclaimer {
+  margin-top: 0.85rem;
+  padding: 0.65rem 0.85rem;
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-gutter);
+  border-left: 3px solid #0284c7;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  line-height: 1.55;
+  color: var(--vp-c-text-2);
+}
 
 @media (max-width: 640px) {
   .matrix-grid { grid-template-columns: 1fr; }

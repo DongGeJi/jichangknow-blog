@@ -62,7 +62,7 @@ flowchart TD
 ### 第二步：下载对应设备的客户端
 - **Windows / macOS**：推荐下载开源免费的 [Clash Verge Rev](/tutorials/clash-verge)。
 - **iPhone / iPad**：进入美区 App Store 下载 [Shadowrocket (小火箭)](/tutorials/shadowrocket)。
-- **Android 手机**：下载 [Clash Meta for Android](/tutorials/clash-meta-android)。
+- **Android 手机**：下载 [Clash Meta for Android](/posts/android-clash-meta-guide)。
 
 ### 第三步：一键导入订阅并开启代理
 1. 在机场官网的用户后台找到 **一键导入订阅 (Import to Clash/Shadowrocket)** 按钮。
