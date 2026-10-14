@@ -4,11 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node site/build.mjs",
+    "build": "vitepress build docs && node scripts/sync-dist.mjs",
+    "build:site": "node site/build.mjs",
     "check": "node scripts/check-site.mjs",
     "dev": "node scripts/serve.mjs",
     "indexnow": "node scripts/indexnow.mjs",
-    "legacy:build": "vitepress build docs"
+    "legacy:build": "vitepress build docs && node scripts/sync-dist.mjs"
   },
   "devDependencies": {
     "vitepress": "^1.6.0",
