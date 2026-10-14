@@ -1,113 +1,17 @@
 ---
-title: 懂哥机 20 家梯子与机场单篇深度测评长文汇总
-description: 基于家用 1000M 宽带 + 每日 20:00 - 23:00 晚高峰挂测，收录 20 家真实机场单篇测评与详细测速数据。
+title: 懂哥机 20+ 家梯子与机场单篇深度测评长文汇总
+description: 基于家用 1000M 宽带 + 每日 20:00 - 23:00 晚高峰挂测，收录 20+ 家真实机场单篇测评与详细测速数据。
 category: 📑 单篇实测
 outline: [2, 3]
 ---
 
-# 📑 懂哥机 20 家梯子与机场单篇深度测评长文汇总
+# 📑 懂哥机 20+ 家梯子与机场单篇深度测评长文汇总
 
 基于家用 1000M 宽带 + 每日 20:00 - 23:00 晚高峰挂测，严格公开路由追踪、丢包率与 AI 解锁数据。
 
 ---
 
-## 1. 暮光加速 (主推专线)
-
-<div class="luxury-card">
-  <div class="card-top-info">
-    <div class="badge-group">
-      <span class="type-badge">主推 IPLC 专线</span>
-      <span class="coupon-badge">🎁 专属优惠: mm88</span>
-    </div>
-    <div class="date-views-meta">
-      <span class="meta-date">📅 2026-08-15</span>
-      <span class="meta-views">👁️ 2350</span>
-    </div>
-  </div>
-  <h3 class="card-main-title"><a href="/reviews/muguang">【暮光加速】2026 深度测评：晚高峰千兆压测与 4K 秒开稳定性报告</a></h3>
-  <p class="card-desc-text">懂哥机首推主打！三网 IPLC 纯内网专线，晚高峰千兆带宽跑满，ChatGPT / Claude 3.5 原生绿灯解锁。</p>
-  <div class="card-footer-action">
-    <div class="footer-left-tip"><span class="secure-dot"></span> 晚高峰千兆压测 · 独立验证</div>
-    <div class="footer-btns-right">
-      <a href="https://tizi2.twilightaff.com/#/?code=nogJwChd" target="_blank" rel="nofollow sponsored" class="btn-primary-aff">官网直达 ↗</a>
-      <a href="/reviews/muguang" class="btn-secondary-review">阅读完整测评 ➔</a>
-    </div>
-  </div>
-</div>
-
-## 2. 梯子云 (企业专线)
-
-<div class="luxury-card">
-  <div class="card-top-info">
-    <div class="badge-group">
-      <span class="type-badge">IEPL 企业专线</span>
-      <span class="coupon-badge">🎁 专属优惠: tiziyun</span>
-    </div>
-    <div class="date-views-meta">
-      <span class="meta-date">📅 2026-08-14</span>
-      <span class="meta-views">👁️ 1980</span>
-    </div>
-  </div>
-  <h3 class="card-main-title"><a href="/reviews/tiziyun">【梯子云】2026 深度测评：全线 IEPL 企业专线与自研客户端秒开实测</a></h3>
-  <p class="card-desc-text">全线 IEPL 企业内网专线，告别晚高峰拥堵。支持自研小白客户端与主流 Clash 订阅。</p>
-  <div class="card-footer-action">
-    <div class="footer-left-tip"><span class="secure-dot"></span> 晚高峰千兆压测 · 独立验证</div>
-    <div class="footer-btns-right">
-      <a href="https://tiziyun3.ladderaff.com/#/register?code=9otclbmc" target="_blank" rel="nofollow sponsored" class="btn-primary-aff">官网直达 ↗</a>
-      <a href="/reviews/tiziyun" class="btn-secondary-review">阅读完整测评 ➔</a>
-    </div>
-  </div>
-</div>
-
-## 3. 隐形人 (VLESS 极速)
-
-<div class="luxury-card">
-  <div class="card-top-info">
-    <div class="badge-group">
-      <span class="type-badge">VLESS 纯专线</span>
-      <span class="coupon-badge">🎁 专属优惠: yxr888</span>
-    </div>
-    <div class="date-views-meta">
-      <span class="meta-date">📅 2026-08-13</span>
-      <span class="meta-views">👁️ 1620</span>
-    </div>
-  </div>
-  <h3 class="card-main-title"><a href="/reviews/yinxingren">【隐形人】2026 深度测评：新加坡技术团队与 VLESS 协议 8K 秒开实测</a></h3>
-  <p class="card-desc-text">新加坡技术团队打造，全线纯专线 + VLESS 协议，8K 视频秒开无缓冲。</p>
-  <div class="card-footer-action">
-    <div class="footer-left-tip"><span class="secure-dot"></span> 晚高峰千兆压测 · 独立验证</div>
-    <div class="footer-btns-right">
-      <a href="https://tizi2.invisibleaff.com/#/?code=2ZoNoNo5" target="_blank" rel="nofollow sponsored" class="btn-primary-aff">官网直达 ↗</a>
-      <a href="/reviews/yinxingren" class="btn-secondary-review">阅读完整测评 ➔</a>
-    </div>
-  </div>
-</div>
-
-## 4. FlyV (不限设备)
-
-<div class="luxury-card">
-  <div class="card-top-info">
-    <div class="badge-group">
-      <span class="type-badge">1.0x 不扣量</span>
-      <span class="coupon-badge">🎁 专属优惠: fly20</span>
-    </div>
-    <div class="date-views-meta">
-      <span class="meta-date">📅 2026-08-10</span>
-      <span class="meta-views">👁️ 1540</span>
-    </div>
-  </div>
-  <h3 class="card-main-title"><a href="/reviews/flyv">【FlyV】2026 深度测评：全节点 1.0x 不暗扣，不限设备数与大流量实测</a></h3>
-  <p class="card-desc-text">全节点 1.0x 计费绝不扣量！千兆不限速，支持 4K/8K 流媒体与 ChatGPT，不限制同时在线设备。</p>
-  <div class="card-footer-action">
-    <div class="footer-left-tip"><span class="secure-dot"></span> 晚高峰千兆压测 · 独立验证</div>
-    <div class="footer-btns-right">
-      <a href="https://tizi2.flyvaff.com/#/?code=JrLBx09H" target="_blank" rel="nofollow sponsored" class="btn-primary-aff">官网直达 ↗</a>
-      <a href="/reviews/flyv" class="btn-secondary-review">阅读完整测评 ➔</a>
-    </div>
-  </div>
-</div>
-
-## 5. 九云机场 (海外中转 VLESS)
+## 1. 九云机场 (海外中转 VLESS)
 
 <div class="luxury-card">
   <div class="card-top-info">
@@ -131,55 +35,7 @@ outline: [2, 3]
   </div>
 </div>
 
-## 6. 灵动云 (VLESS 协议)
-
-<div class="luxury-card">
-  <div class="card-top-info">
-    <div class="badge-group">
-      <span class="type-badge">VLESS 协议</span>
-      <span class="coupon-badge">🎁 专属优惠: ld88</span>
-    </div>
-    <div class="date-views-meta">
-      <span class="meta-date">📅 2026-08-08</span>
-      <span class="meta-views">👁️ 1410</span>
-    </div>
-  </div>
-  <h3 class="card-main-title"><a href="/reviews/lingdongyun">【灵动云】2026 深度测评：最新 VLESS 协议与超多国家地区节点实测</a></h3>
-  <p class="card-desc-text">全线采用最新 VLESS 协议，提供香港、台湾、日本、新加坡及美国超多节点，晚高峰 4K 播放流畅。</p>
-  <div class="card-footer-action">
-    <div class="footer-left-tip"><span class="secure-dot"></span> 晚高峰千兆压测 · 独立验证</div>
-    <div class="footer-btns-right">
-      <a href="https://tizi2.lingdongaff.com/#/?code=NNWFzdHj" target="_blank" rel="nofollow sponsored" class="btn-primary-aff">官网直达 ↗</a>
-      <a href="/reviews/lingdongyun" class="btn-secondary-review">阅读完整测评 ➔</a>
-    </div>
-  </div>
-</div>
-
-## 7. 赔钱机场 (月付 1.99 元 / 不限时)
-
-<div class="luxury-card">
-  <div class="card-top-info">
-    <div class="badge-group">
-      <span class="type-badge">极致性价比 / 按量包</span>
-      <span class="coupon-badge">🎁 专属优惠: 端午</span>
-    </div>
-    <div class="date-views-meta">
-      <span class="meta-date">📅 2026-09-17</span>
-      <span class="meta-views">👁️ 1890</span>
-    </div>
-  </div>
-  <h3 class="card-main-title"><a href="/reviews/peiqian">【赔钱机场】2026 深度测评：月付 1.99 元极致性价比与不限时按量付费包实测</a></h3>
-  <p class="card-desc-text">月付仅需 ¥1.99，1000G 不限时流量包 ¥14.90！三网高质量中转，0.1x 超低下载节点，不限制设备连接数。</p>
-  <div class="card-footer-action">
-    <div class="footer-left-tip"><span class="secure-dot"></span> 晚高峰千兆压测 · 独立验证</div>
-    <div class="footer-btns-right">
-      <a href="https://github.com/DongGeJi" target="_blank" rel="nofollow sponsored" class="btn-primary-aff">官网直达 ↗</a>
-      <a href="/reviews/peiqian" class="btn-secondary-review">阅读完整测评 ➔</a>
-    </div>
-  </div>
-</div>
-
-## 8. 宝云机场 (超低门槛 ¥4/月 / 不限时包)
+## 2. 宝云机场 (超低门槛 ¥4/月 / 不限时包)
 
 <div class="luxury-card">
   <div class="card-top-info">
@@ -203,7 +59,127 @@ outline: [2, 3]
   </div>
 </div>
 
-## 9. 浪网 (AI 开发特化)
+## 3. 暮光加速 (主推专线)
+
+<div class="luxury-card">
+  <div class="card-top-info">
+    <div class="badge-group">
+      <span class="type-badge">主推 IPLC 专线</span>
+      <span class="coupon-badge">🎁 专属优惠: mm88</span>
+    </div>
+    <div class="date-views-meta">
+      <span class="meta-date">📅 2026-08-15</span>
+      <span class="meta-views">👁️ 2350</span>
+    </div>
+  </div>
+  <h3 class="card-main-title"><a href="/reviews/muguang">【暮光加速】2026 深度测评：晚高峰千兆压测与 4K 秒开稳定性报告</a></h3>
+  <p class="card-desc-text">懂哥机首推主打！三网 IPLC 纯内网专线，晚高峰千兆带宽跑满，ChatGPT / Claude 3.5 原生绿灯解锁。</p>
+  <div class="card-footer-action">
+    <div class="footer-left-tip"><span class="secure-dot"></span> 晚高峰千兆压测 · 独立验证</div>
+    <div class="footer-btns-right">
+      <a href="https://tizi2.twilightaff.com/#/?code=nogJwChd" target="_blank" rel="nofollow sponsored" class="btn-primary-aff">官网直达 ↗</a>
+      <a href="/reviews/muguang" class="btn-secondary-review">阅读完整测评 ➔</a>
+    </div>
+  </div>
+</div>
+
+## 4. 梯子云 (企业专线)
+
+<div class="luxury-card">
+  <div class="card-top-info">
+    <div class="badge-group">
+      <span class="type-badge">IEPL 企业专线</span>
+      <span class="coupon-badge">🎁 专属优惠: tiziyun</span>
+    </div>
+    <div class="date-views-meta">
+      <span class="meta-date">📅 2026-08-14</span>
+      <span class="meta-views">👁️ 1980</span>
+    </div>
+  </div>
+  <h3 class="card-main-title"><a href="/reviews/tiziyun">【梯子云】2026 深度测评：全线 IEPL 企业专线与自研客户端秒开实测</a></h3>
+  <p class="card-desc-text">全线 IEPL 企业内网专线，告别晚高峰拥堵。支持自研小白客户端与主流 Clash 订阅。</p>
+  <div class="card-footer-action">
+    <div class="footer-left-tip"><span class="secure-dot"></span> 晚高峰千兆压测 · 独立验证</div>
+    <div class="footer-btns-right">
+      <a href="https://tiziyun3.ladderaff.com/#/register?code=9otclbmc" target="_blank" rel="nofollow sponsored" class="btn-primary-aff">官网直达 ↗</a>
+      <a href="/reviews/tiziyun" class="btn-secondary-review">阅读完整测评 ➔</a>
+    </div>
+  </div>
+</div>
+
+## 5. 隐形人 (VLESS 极速)
+
+<div class="luxury-card">
+  <div class="card-top-info">
+    <div class="badge-group">
+      <span class="type-badge">VLESS 纯专线</span>
+      <span class="coupon-badge">🎁 专属优惠: yxr888</span>
+    </div>
+    <div class="date-views-meta">
+      <span class="meta-date">📅 2026-08-13</span>
+      <span class="meta-views">👁️ 1620</span>
+    </div>
+  </div>
+  <h3 class="card-main-title"><a href="/reviews/yinxingren">【隐形人】2026 深度测评：新加坡技术团队与 VLESS 协议 8K 秒开实测</a></h3>
+  <p class="card-desc-text">新加坡技术团队打造，全线纯专线 + VLESS 协议，8K 视频秒开无缓冲。</p>
+  <div class="card-footer-action">
+    <div class="footer-left-tip"><span class="secure-dot"></span> 晚高峰千兆压测 · 独立验证</div>
+    <div class="footer-btns-right">
+      <a href="https://tizi2.invisibleaff.com/#/?code=2ZoNoNo5" target="_blank" rel="nofollow sponsored" class="btn-primary-aff">官网直达 ↗</a>
+      <a href="/reviews/yinxingren" class="btn-secondary-review">阅读完整测评 ➔</a>
+    </div>
+  </div>
+</div>
+
+## 6. FlyV (不限设备)
+
+<div class="luxury-card">
+  <div class="card-top-info">
+    <div class="badge-group">
+      <span class="type-badge">1.0x 不扣量</span>
+      <span class="coupon-badge">🎁 专属优惠: fly20</span>
+    </div>
+    <div class="date-views-meta">
+      <span class="meta-date">📅 2026-08-10</span>
+      <span class="meta-views">👁️ 1540</span>
+    </div>
+  </div>
+  <h3 class="card-main-title"><a href="/reviews/flyv">【FlyV】2026 深度测评：全节点 1.0x 不暗扣，不限设备数与大流量实测</a></h3>
+  <p class="card-desc-text">全节点 1.0x 计费绝不扣量！千兆不限速，支持 4K/8K 流媒体与 ChatGPT，不限制同时在线设备。</p>
+  <div class="card-footer-action">
+    <div class="footer-left-tip"><span class="secure-dot"></span> 晚高峰千兆压测 · 独立验证</div>
+    <div class="footer-btns-right">
+      <a href="https://tizi2.flyvaff.com/#/?code=JrLBx09H" target="_blank" rel="nofollow sponsored" class="btn-primary-aff">官网直达 ↗</a>
+      <a href="/reviews/flyv" class="btn-secondary-review">阅读完整测评 ➔</a>
+    </div>
+  </div>
+</div>
+
+## 7. 灵动云 (VLESS 协议)
+
+<div class="luxury-card">
+  <div class="card-top-info">
+    <div class="badge-group">
+      <span class="type-badge">VLESS 协议</span>
+      <span class="coupon-badge">🎁 专属优惠: ld88</span>
+    </div>
+    <div class="date-views-meta">
+      <span class="meta-date">📅 2026-08-08</span>
+      <span class="meta-views">👁️ 1410</span>
+    </div>
+  </div>
+  <h3 class="card-main-title"><a href="/reviews/lingdongyun">【灵动云】2026 深度测评：最新 VLESS 协议与超多国家地区节点实测</a></h3>
+  <p class="card-desc-text">全线采用最新 VLESS 协议，提供香港、台湾、日本、新加坡及美国超多节点，晚高峰 4K 播放流畅。</p>
+  <div class="card-footer-action">
+    <div class="footer-left-tip"><span class="secure-dot"></span> 晚高峰千兆压测 · 独立验证</div>
+    <div class="footer-btns-right">
+      <a href="https://tizi2.lingdongaff.com/#/?code=NNWFzdHj" target="_blank" rel="nofollow sponsored" class="btn-primary-aff">官网直达 ↗</a>
+      <a href="/reviews/lingdongyun" class="btn-secondary-review">阅读完整测评 ➔</a>
+    </div>
+  </div>
+</div>
+
+## 8. 浪网 (AI 开发特化)
 
 <div class="luxury-card">
   <div class="card-top-info">
@@ -227,7 +203,31 @@ outline: [2, 3]
   </div>
 </div>
 
-## 7. 宇宙云 (平价首选)
+## 9. 赔钱机场 (月付 1.99 元 / 不限时)
+
+<div class="luxury-card">
+  <div class="card-top-info">
+    <div class="badge-group">
+      <span class="type-badge">极致性价比 / 按量包</span>
+      <span class="coupon-badge">🎁 专属优惠: 端午</span>
+    </div>
+    <div class="date-views-meta">
+      <span class="meta-date">📅 2026-09-17</span>
+      <span class="meta-views">👁️ 1890</span>
+    </div>
+  </div>
+  <h3 class="card-main-title"><a href="/reviews/peiqian">【赔钱机场】2026 深度测评：月付 1.99 元极致性价比与不限时按量付费包实测</a></h3>
+  <p class="card-desc-text">月付仅需 ¥1.99，1000G 不限时流量包 ¥14.90！三网高质量中转，0.1x 超低下载节点，不限制设备连接数。</p>
+  <div class="card-footer-action">
+    <div class="footer-left-tip"><span class="secure-dot"></span> 晚高峰千兆压测 · 独立验证</div>
+    <div class="footer-btns-right">
+      <a href="https://github.com/DongGeJi" target="_blank" rel="nofollow sponsored" class="btn-primary-aff">官网直达 ↗</a>
+      <a href="/reviews/peiqian" class="btn-secondary-review">阅读完整测评 ➔</a>
+    </div>
+  </div>
+</div>
+
+## 10. 宇宙云 (平价首选)
 
 <div class="luxury-card">
   <div class="card-top-info">
@@ -251,7 +251,7 @@ outline: [2, 3]
   </div>
 </div>
 
-## 8. 全球云 (全球节点)
+## 11. 全球云 (全球节点)
 
 <div class="luxury-card">
   <div class="card-top-info">
@@ -274,7 +274,7 @@ outline: [2, 3]
   </div>
 </div>
 
-## 9. 光速云 (极速中转)
+## 12. 光速云 (极速中转)
 
 <div class="luxury-card">
   <div class="card-top-info">
@@ -297,7 +297,7 @@ outline: [2, 3]
   </div>
 </div>
 
-## 10. U1S1 (倍率透明)
+## 13. U1S1 (倍率透明)
 
 <div class="luxury-card">
   <div class="card-top-info">
@@ -320,7 +320,7 @@ outline: [2, 3]
   </div>
 </div>
 
-## 11. 极连云 (智能调度)
+## 14. 极连云 (智能调度)
 
 <div class="luxury-card">
   <div class="card-top-info">
@@ -343,7 +343,7 @@ outline: [2, 3]
   </div>
 </div>
 
-## 12. 光年梯 (流媒体专测)
+## 15. 光年梯 (流媒体专测)
 
 <div class="luxury-card">
   <div class="card-top-info">
@@ -366,7 +366,7 @@ outline: [2, 3]
   </div>
 </div>
 
-## 13. 一翻云 (150G 大流量)
+## 16. 一翻云 (150G 大流量)
 
 <div class="luxury-card">
   <div class="card-top-info">
@@ -389,7 +389,7 @@ outline: [2, 3]
   </div>
 </div>
 
-## 14. 二猫云 (手机优化)
+## 17. 二猫云 (手机优化)
 
 <div class="luxury-card">
   <div class="card-top-info">
@@ -412,7 +412,7 @@ outline: [2, 3]
   </div>
 </div>
 
-## 15. sogo云 (企业生产力)
+## 18. sogo云 (企业生产力)
 
 <div class="luxury-card">
   <div class="card-top-info">
@@ -435,7 +435,7 @@ outline: [2, 3]
   </div>
 </div>
 
-## 16. edgenova (边缘计算)
+## 19. edgenova (边缘计算)
 
 <div class="luxury-card">
   <div class="card-top-info">
@@ -458,7 +458,7 @@ outline: [2, 3]
   </div>
 </div>
 
-## 17. 雨燕云 (电竞低延迟)
+## 20. 雨燕云 (电竞低延迟)
 
 <div class="luxury-card">
   <div class="card-top-info">
@@ -481,7 +481,7 @@ outline: [2, 3]
   </div>
 </div>
 
-## 18. 次元链接 (番剧解锁)
+## 21. 次元链接 (番剧解锁)
 
 <div class="luxury-card">
   <div class="card-top-info">
@@ -504,7 +504,7 @@ outline: [2, 3]
   </div>
 </div>
 
-## 19. 茶艺云 (住宅原生)
+## 22. 茶艺云 (住宅原生)
 
 <div class="luxury-card">
   <div class="card-top-info">
@@ -527,7 +527,7 @@ outline: [2, 3]
   </div>
 </div>
 
-## 20. 三番云 (容灾双备)
+## 23. 三番云 (容灾双备)
 
 <div class="luxury-card">
   <div class="card-top-info">
@@ -551,7 +551,7 @@ outline: [2, 3]
 </div>
 
 <!-- 底部点赞组件 -->
-<ArticleLikes :initial="35" id="reviews-index" mode="bottom"/>
+<ArticleLikes :initial="0" id="reviews-index" mode="bottom"/>
 
 <style scoped>
 .luxury-card {

@@ -678,7 +678,7 @@ onMounted(() => {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 320px;
+  grid-template-columns: minmax(0, 1fr) 320px;
   gap: 2rem;
   align-items: flex-start;
 }
@@ -686,6 +686,7 @@ onMounted(() => {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  min-width: 0;
 }
 .post-card {
   background: var(--vp-c-bg);
@@ -973,7 +974,13 @@ onMounted(() => {
 }
 
 @media (max-width: 960px) {
-  .blog-container { grid-template-columns: 1fr; }
+  .blog-container { grid-template-columns: minmax(0, 1fr); }
   .blog-sidebar { position: static; }
+}
+@media (max-width: 640px) {
+  .dongge-blog-wrap { padding: 1rem; }
+  .post-card { padding: 1rem; }
+  .banner-inner { flex-wrap: wrap; font-size: 1rem; }
+  .card-meta { overflow-wrap: anywhere; }
 }
 </style>

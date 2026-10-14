@@ -201,18 +201,21 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* ================= 完美自适应表格（无滑块、紧凑排版） ================= */
+/* 表格在窄屏内独立滚动，避免挤压列内容或撑宽整页。 */
 .vp-doc .custom-table-container {
   width: 100% !important;
-  overflow: hidden !important; /* 彻底禁用滑块 */
+  max-width: 100%;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch;
   margin: 1rem 0 1.5rem !important;
   border-radius: 8px !important;
   border: 1px solid var(--vp-c-gutter) !important;
 }
 
 .vp-doc .custom-table-container table {
+  display: table !important;
   width: 100% !important;
-  table-layout: fixed !important; /* 固定表格布局，按百分比精准分摊列宽 */
+  table-layout: auto !important;
   border-collapse: collapse !important;
   margin: 0 !important;
   font-size: 0.8rem !important;
@@ -233,21 +236,11 @@ body {
   font-weight: 800 !important;
 }
 
-/* 科学精确分配 5 列宽度比例（总计 100%，绝不溢出产生滑块） */
-.vp-doc .custom-table-container th:nth-child(1),
-.vp-doc .custom-table-container td:nth-child(1) { width: 14%; } /* 排名 */
-
-.vp-doc .custom-table-container th:nth-child(2),
-.vp-doc .custom-table-container td:nth-child(2) { width: 20%; font-weight: 800; color: var(--vp-c-text-1); } /* 机场名称 */
-
-.vp-doc .custom-table-container th:nth-child(3),
-.vp-doc .custom-table-container td:nth-child(3) { width: 16%; color: #0284c7; font-weight: 700; } /* 资费/优惠码 */
-
-.vp-doc .custom-table-container th:nth-child(4),
-.vp-doc .custom-table-container td:nth-child(4) { width: 28%; font-size: 0.76rem; } /* 核心特性 */
-
-.vp-doc .custom-table-container th:nth-child(5),
-.vp-doc .custom-table-container td:nth-child(5) { width: 22%; text-align: center !important; } /* 快捷操作 */
+@media (max-width: 768px) {
+  .vp-doc .custom-table-container table {
+    min-width: 680px;
+  }
+}
 
 /* 徽章与按钮样式 */
 .rank-badge {

@@ -152,13 +152,31 @@
     </details>
 
     <!-- 底部互动点赞组件 -->
-    <ArticleLikes :initial="128" id="recommend-2026" mode="bottom"/>
+    <ArticleLikes :initial="0" id="recommend-2026" mode="bottom"/>
   </div>
 </template>
 
 <script setup>
 // 16 家精选优质机场数据（已彻底剔除雨燕云、次元链接、茶艺云、三番云）
 const fullAirports = [
+  {
+    name: '九云机场',
+    price: '¥6/月 (150G)',
+    code: '暂无',
+    desc: '极致性价比与高实用性！海外中转 + VLESS 协议，覆盖港/日/台/新/美，支持常规流媒体解锁与 ChatGPT/Gemini，晚高峰 4K 播放流畅。',
+    tags: ['高性价比', '¥6月付', 'VLESS协议', 'ChatGPT/Gemini解锁'],
+    affUrl: 'https://dongge.jiuyyq.com/#/register?code=zxEy7hTJ',
+    reviewUrl: '/reviews/jiuyun'
+  },
+  {
+    name: '宝云机场',
+    price: '¥4/月 (200G) | ¥29/100G不限时',
+    code: '暂无',
+    desc: '极致平民性价比与高弹性套餐！月付低至 4 元 200G，更有 59 元 1000G 不限时包，保号备用与日常翻墙绝佳首选。',
+    tags: ['极致白菜价', '¥4月付', '不限时流量包', '备用保号'],
+    affUrl: 'https://888by.baoyundl.com/#/register?code=BDGk7BuG',
+    reviewUrl: '/reviews/baoyun'
+  },
   {
     name: '暮光加速',
     price: '¥20/月 (120G)',
@@ -196,15 +214,6 @@ const fullAirports = [
     reviewUrl: '/reviews/flyv'
   },
   {
-    name: '九云机场',
-    price: '¥6/月 (150G)',
-    code: '暂无',
-    desc: '极致性价比与高实用性！海外中转 + VLESS 协议，覆盖港/日/台/新/美，支持常规流媒体解锁与 ChatGPT/Gemini，晚高峰 4K 播放流畅。',
-    tags: ['高性价比', '¥6月付', 'VLESS协议', 'ChatGPT/Gemini解锁'],
-    affUrl: 'https://dongge.jiuyyq.com/#/register?code=zxEy7hTJ',
-    reviewUrl: '/reviews/jiuyun'
-  },
-  {
     name: '灵动云',
     price: '¥20/月 (100G)',
     code: 'ld88',
@@ -212,15 +221,6 @@ const fullAirports = [
     tags: ['VLESS', '超多节点', '平价月付', '晚高峰抗拥堵'],
     affUrl: 'https://tizi2.lingdongaff.com/#/?code=NNWFzdHj',
     reviewUrl: '/reviews/lingdongyun'
-  },
-  {
-    name: '宝云机场',
-    price: '¥4/月 (200G) | ¥29/100G不限时',
-    code: '暂无',
-    desc: '极致平民性价比与高弹性套餐！月付低至 4 元 200G，更有 59 元 1000G 不限时包，保号备用与日常翻墙绝佳首选。',
-    tags: ['极致白菜价', '¥4月付', '不限时流量包', '备用保号'],
-    affUrl: 'https://888by.baoyundl.com/#/register?code=BDGk7BuG',
-    reviewUrl: '/reviews/baoyun'
   },
   {
     name: '浪网',
